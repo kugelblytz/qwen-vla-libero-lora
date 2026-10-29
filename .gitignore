@@ -1,0 +1,7 @@
+# Checkouts, environments, datasets, checkpoints and rollouts (see README, "Running it")
+.workspace/
+__pycache__/
+*.pyc
+*.safetensors
+*.mp4
+*.log

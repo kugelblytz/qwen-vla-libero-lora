@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "checks": [
+    "server startup and internal warmup",
+    "GET /health returned HTTP 200",
+    "GET /v1/models registered base and simulation adapter"
+  ],
+  "served_names": [
+    "Qwen/Qwen3.5-2B",
+    "qwen3_5_2b_showharness_sim"
+  ],
+  "inference_request_sent": false,
+  "libero_episode_run": false,
+  "settings": {
+    "dtype": "bfloat16",
+    "gpu_memory_utilization": 0.8,
+    "max_model_len": 8192,
+    "max_num_seqs": 1,
+    "tensor_parallel_size": 1,
+    "enforce_eager": true,
+    "flashinfer_sampler": false,
+    "attention_backend": "FLASH_ATTN",
+    "gdn_prefill_backend": "triton",
+    "chat_template": "models/chat_templates/qwen3_5_nothink.jinja",
+    "adapter_rank": 64,
+    "host": "127.0.0.1",
+    "port": 8000
+  },
+  "base_weight_memory_gib": 4.4
+}

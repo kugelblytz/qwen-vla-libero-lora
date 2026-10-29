@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "diagnostic_only": true,
+  "initial_probe_updates": 3,
+  "resume_from_update": 2,
+  "resumed_updates": 1,
+  "final_global_step": 3,
+  "resume_report": {
+    "returncode": 0,
+    "wall_s": 71.76480903709307,
+    "updates": 1,
+    "resumed": true,
+    "estimated_full_compute_s": null,
+    "caveat": "Startup and tokenization included; inspect timed optimizer steps for a better estimate. No production weights selected."
+  },
+  "five_pass_config_parser": "passed",
+  "diagnostic_train_examples": 1420,
+  "diagnostic_five_pass_updates": 225,
+  "full_training_started": false,
+  "caveat": "This verifies same-budget resume. Extension changes the LR schedule; streaming data replay is not guaranteed bit-identical."
+}

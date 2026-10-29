@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "dtype": "torch.float32",
+      "learn_weight": false,
+      "sum_loss": false,
+      "loss_difference": 0.0,
+      "max_hidden_grad_difference": 1.6763806343078613e-08
+    },
+    {
+      "dtype": "torch.float32",
+      "learn_weight": false,
+      "sum_loss": true,
+      "loss_difference": 0.0,
+      "max_hidden_grad_difference": 2.7939677238464355e-08
+    },
+    {
+      "dtype": "torch.float32",
+      "learn_weight": true,
+      "sum_loss": false,
+      "loss_difference": 0.0,
+      "max_hidden_grad_difference": 2.60770320892334e-08
+    },
+    {
+      "dtype": "torch.float32",
+      "learn_weight": true,
+      "sum_loss": true,
+      "loss_difference": 0.0,
+      "max_hidden_grad_difference": 1.862645149230957e-08
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "learn_weight": false,
+      "sum_loss": false,
+      "loss_difference": 0.0,
+      "max_hidden_grad_difference": 0.0
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "learn_weight": false,
+      "sum_loss": true,
+      "loss_difference": 0.0,
+      "max_hidden_grad_difference": 0.0
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "learn_weight": true,
+      "sum_loss": false,
+      "loss_difference": 0.0,
+      "max_hidden_grad_difference": 0.0
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "learn_weight": true,
+      "sum_loss": true,
+      "loss_difference": 0.0,
+      "max_hidden_grad_difference": 0.0
+    }
+  ]
+}

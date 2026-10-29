@@ -1,0 +1,29 @@
+# 4B adaptation preserving the paper's reported rank, targets, precision,
+# effective batch, epochs, learning rate, schedule and frozen visual modules.
+# This is NOT a claim that the paper's default model was 4B or used LIBERO/v5.
+model_name_or_path: Qwen/Qwen3.5-4B
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_rank: 64
+lora_target: all
+freeze_vision_tower: true
+freeze_multi_modal_projector: true
+num_train_epochs: 40.0
+learning_rate: 0.0001
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+image_max_pixels: 65536
+# Memory implementation choices; the paper specifies effective batch only.
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 32
+disable_gradient_checkpointing: false
+# Repository values where the paper is silent:
+lora_alpha: 128
+lora_dropout: 0.05
+template: qwen3_5_nothink
+cutoff_len: 2048
+flash_attn: sdpa
+enable_liger_kernel: true
+# Deliberately incomplete: no dataset/output selected; no training is launched.

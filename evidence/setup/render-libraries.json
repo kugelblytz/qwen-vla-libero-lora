@@ -1,0 +1,12 @@
+[
+  {
+    "file": "libglapi-mesa_23.2.1-1ubuntu3.1~22.04.4_amd64.deb",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/m/mesa/libglapi-mesa_23.2.1-1ubuntu3.1~22.04.4_amd64.deb",
+    "sha256": "bb9b515ea17ca816f878501d3b862c4bdfc3501482f96c9bbd8263bb402bc498"
+  },
+  {
+    "file": "libosmesa6_23.2.1-1ubuntu3.1~22.04.4_amd64.deb",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/m/mesa/libosmesa6_23.2.1-1ubuntu3.1~22.04.4_amd64.deb",
+    "sha256": "d961bee304d032b7a3f626239366bbe36c4481adb5699813389cdbd08d682269"
+  }
+]

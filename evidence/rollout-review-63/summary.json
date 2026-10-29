@@ -1,0 +1,76 @@
+{
+  "attempts": 63,
+  "successes": 11,
+  "tasks": [
+    {
+      "task": 0,
+      "prompt": "Pick the alphabet soup and place it in the basket",
+      "attempts": 10,
+      "successes": 3,
+      "grasp_issued": 9,
+      "release_issued": 1,
+      "pure_yaw": 0
+    },
+    {
+      "task": 1,
+      "prompt": "Pick the cream cheese and place it in the basket",
+      "attempts": 10,
+      "successes": 0,
+      "grasp_issued": 0,
+      "release_issued": 0,
+      "pure_yaw": 10
+    },
+    {
+      "task": 2,
+      "prompt": "Pick the salad dressing and place it in the basket",
+      "attempts": 10,
+      "successes": 3,
+      "grasp_issued": 10,
+      "release_issued": 0,
+      "pure_yaw": 0
+    },
+    {
+      "task": 3,
+      "prompt": "Pick the bbq sauce and place it in the basket",
+      "attempts": 10,
+      "successes": 0,
+      "grasp_issued": 6,
+      "release_issued": 0,
+      "pure_yaw": 3
+    },
+    {
+      "task": 4,
+      "prompt": "Pick the ketchup and place it in the basket",
+      "attempts": 10,
+      "successes": 5,
+      "grasp_issued": 9,
+      "release_issued": 0,
+      "pure_yaw": 0
+    },
+    {
+      "task": 5,
+      "prompt": "Pick the tomato sauce and place it in the basket",
+      "attempts": 10,
+      "successes": 0,
+      "grasp_issued": 0,
+      "release_issued": 0,
+      "pure_yaw": 10
+    },
+    {
+      "task": 6,
+      "prompt": "Pick the butter and place it in the basket",
+      "attempts": 3,
+      "successes": 0,
+      "grasp_issued": 2,
+      "release_issued": 0,
+      "pure_yaw": 0
+    }
+  ],
+  "failures_with_grasp_command": 25,
+  "failures_without_grasp_command": 27,
+  "pure_yaw_loops": 23,
+  "successes_with_final_target_finger_contact": 10,
+  "successes_with_release_command": 1,
+  "protocol_step_m": 0.01,
+  "protocol_rot_step_deg": 5.0
+}

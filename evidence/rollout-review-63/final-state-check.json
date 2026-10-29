@@ -1,0 +1,987 @@
+[
+  {
+    "task": 0,
+    "attempt": 0,
+    "success": false,
+    "target": "alphabet_soup_1",
+    "target_finger_contact": true,
+    "contact_objects": [
+      "alphabet_soup_1"
+    ],
+    "final_width_m": 0.05831657680058269,
+    "target_position": [
+      -0.4488888831578462,
+      0.26110111654682483,
+      0.8099871472843807
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 0,
+    "attempt": 1,
+    "success": false,
+    "target": "alphabet_soup_1",
+    "target_finger_contact": true,
+    "contact_objects": [
+      "alphabet_soup_1"
+    ],
+    "final_width_m": 0.06246223056509048,
+    "target_position": [
+      -0.8433902929516397,
+      0.7813178409013196,
+      0.04261652171824903
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 0,
+    "attempt": 2,
+    "success": false,
+    "target": "alphabet_soup_1",
+    "target_finger_contact": true,
+    "contact_objects": [
+      "alphabet_soup_1"
+    ],
+    "final_width_m": 0.06294271639384623,
+    "target_position": [
+      -0.8656857513365741,
+      0.7065464235233004,
+      0.35780606947575494
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 0,
+    "attempt": 3,
+    "success": false,
+    "target": "alphabet_soup_1",
+    "target_finger_contact": true,
+    "contact_objects": [
+      "alphabet_soup_1"
+    ],
+    "final_width_m": 0.06241867405729557,
+    "target_position": [
+      -0.43949218478343466,
+      0.37152796241765434,
+      0.7653218754647042
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 0,
+    "attempt": 4,
+    "success": true,
+    "target": "alphabet_soup_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.07943690120661874,
+    "target_position": [
+      -0.017913069235575518,
+      0.2644865166985232,
+      0.04806667753197048
+    ],
+    "rechecked_success": true
+  },
+  {
+    "task": 0,
+    "attempt": 5,
+    "success": false,
+    "target": "alphabet_soup_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.07999378394159198,
+    "target_position": [
+      -0.11909425574484636,
+      -0.23978121735108737,
+      0.03839291037244387
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 0,
+    "attempt": 6,
+    "success": true,
+    "target": "alphabet_soup_1",
+    "target_finger_contact": true,
+    "contact_objects": [
+      "alphabet_soup_1"
+    ],
+    "final_width_m": 0.0596031706791561,
+    "target_position": [
+      -0.07061843765416978,
+      0.3040427309323584,
+      0.159370729445693
+    ],
+    "rechecked_success": true
+  },
+  {
+    "task": 0,
+    "attempt": 7,
+    "success": false,
+    "target": "alphabet_soup_1",
+    "target_finger_contact": true,
+    "contact_objects": [
+      "alphabet_soup_1"
+    ],
+    "final_width_m": 0.0624684033081723,
+    "target_position": [
+      -0.1951150098119781,
+      0.6987999105198868,
+      0.30901034856166226
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 0,
+    "attempt": 8,
+    "success": false,
+    "target": "alphabet_soup_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.0009995545905388615,
+    "target_position": [
+      -0.15181842148266625,
+      0.6973731620965848,
+      0.03839291037244395
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 0,
+    "attempt": 9,
+    "success": true,
+    "target": "alphabet_soup_1",
+    "target_finger_contact": true,
+    "contact_objects": [
+      "alphabet_soup_1"
+    ],
+    "final_width_m": 0.061070634712853004,
+    "target_position": [
+      -0.04373460987635195,
+      0.28890438982180267,
+      0.15468541761880264
+    ],
+    "rechecked_success": true
+  },
+  {
+    "task": 1,
+    "attempt": 0,
+    "success": false,
+    "target": "cream_cheese_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.07973990177463364,
+    "target_position": [
+      0.04607199348123641,
+      -0.10264932772423524,
+      0.00892147741860811
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 1,
+    "attempt": 1,
+    "success": false,
+    "target": "cream_cheese_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.07990660270149018,
+    "target_position": [
+      0.054519157697060415,
+      -0.10286021768051089,
+      0.00892147741860811
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 1,
+    "attempt": 2,
+    "success": false,
+    "target": "cream_cheese_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.07999676683855446,
+    "target_position": [
+      0.05208605585281599,
+      -0.10132385159690716,
+      0.00892147741860811
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 1,
+    "attempt": 3,
+    "success": false,
+    "target": "cream_cheese_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.07996568760255783,
+    "target_position": [
+      0.053607840889344,
+      -0.10149700854647638,
+      0.00892147741860811
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 1,
+    "attempt": 4,
+    "success": false,
+    "target": "cream_cheese_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.07998906234136183,
+    "target_position": [
+      0.04576834239050331,
+      -0.09630071904756879,
+      0.00892147741860811
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 1,
+    "attempt": 5,
+    "success": false,
+    "target": "cream_cheese_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.07986626945401298,
+    "target_position": [
+      0.053856073136226826,
+      -0.10376036934237903,
+      0.00892147741860811
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 1,
+    "attempt": 6,
+    "success": false,
+    "target": "cream_cheese_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.0799949678108911,
+    "target_position": [
+      0.05192782604561691,
+      -0.09897267608256685,
+      0.00892147741860811
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 1,
+    "attempt": 7,
+    "success": false,
+    "target": "cream_cheese_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.07999781025914743,
+    "target_position": [
+      0.05090717311992727,
+      -0.09801874762714669,
+      0.00892147741860811
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 1,
+    "attempt": 8,
+    "success": false,
+    "target": "cream_cheese_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.07997026077829342,
+    "target_position": [
+      0.04654749903404408,
+      -0.0965222600957745,
+      0.00892147741860811
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 1,
+    "attempt": 9,
+    "success": false,
+    "target": "cream_cheese_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.0799803358116937,
+    "target_position": [
+      0.048550203116436624,
+      -0.09501597315596623,
+      0.00892147741860811
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 2,
+    "attempt": 0,
+    "success": true,
+    "target": "salad_dressing_1",
+    "target_finger_contact": true,
+    "contact_objects": [
+      "salad_dressing_1"
+    ],
+    "final_width_m": 0.036557608620879825,
+    "target_position": [
+      -0.02807423213189831,
+      0.28667963538118685,
+      0.1332292832910761
+    ],
+    "rechecked_success": true
+  },
+  {
+    "task": 2,
+    "attempt": 1,
+    "success": true,
+    "target": "salad_dressing_1",
+    "target_finger_contact": true,
+    "contact_objects": [
+      "salad_dressing_1"
+    ],
+    "final_width_m": 0.036166199893376896,
+    "target_position": [
+      -0.014362325133050276,
+      0.27443190196529255,
+      0.1333196973904715
+    ],
+    "rechecked_success": true
+  },
+  {
+    "task": 2,
+    "attempt": 2,
+    "success": false,
+    "target": "salad_dressing_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.0009995818514568272,
+    "target_position": [
+      0.04653019632230428,
+      0.46560655720816563,
+      0.017554732042154117
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 2,
+    "attempt": 3,
+    "success": false,
+    "target": "salad_dressing_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.0009995991460847527,
+    "target_position": [
+      0.05575619900104486,
+      0.4600735974371978,
+      0.017554732042154134
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 2,
+    "attempt": 4,
+    "success": false,
+    "target": "salad_dressing_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.000999561131101256,
+    "target_position": [
+      0.04199037124825134,
+      -0.09910794803752107,
+      0.07270545369900457
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 2,
+    "attempt": 5,
+    "success": false,
+    "target": "salad_dressing_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.0009996235379265514,
+    "target_position": [
+      0.0446518554917763,
+      -0.0908010815012633,
+      0.07270545369900461
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 2,
+    "attempt": 6,
+    "success": false,
+    "target": "salad_dressing_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.0009995735622401977,
+    "target_position": [
+      0.02291126804859816,
+      0.023732982806273995,
+      0.0727054536990047
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 2,
+    "attempt": 7,
+    "success": true,
+    "target": "salad_dressing_1",
+    "target_finger_contact": true,
+    "contact_objects": [
+      "salad_dressing_1"
+    ],
+    "final_width_m": 0.03711248081167509,
+    "target_position": [
+      -0.031664985499726885,
+      0.2839956372294382,
+      0.13217208812523412
+    ],
+    "rechecked_success": true
+  },
+  {
+    "task": 2,
+    "attempt": 8,
+    "success": false,
+    "target": "salad_dressing_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.0009996293049193863,
+    "target_position": [
+      0.030353678300440414,
+      -0.046445764903549874,
+      0.0727054536990047
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 2,
+    "attempt": 9,
+    "success": false,
+    "target": "salad_dressing_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.0009996614716482023,
+    "target_position": [
+      0.02752787670102529,
+      -0.009718254990182397,
+      0.07270545369900472
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 3,
+    "attempt": 0,
+    "success": false,
+    "target": "bbq_sauce_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.0009995736612755843,
+    "target_position": [
+      0.04295740374410931,
+      -0.09014215970753724,
+      0.05462547741860818
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 3,
+    "attempt": 1,
+    "success": false,
+    "target": "bbq_sauce_1",
+    "target_finger_contact": true,
+    "contact_objects": [
+      "bbq_sauce_1"
+    ],
+    "final_width_m": 0.04702154974716053,
+    "target_position": [
+      -0.13886540027116584,
+      0.3781706843902234,
+      0.7657091206157691
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 3,
+    "attempt": 2,
+    "success": false,
+    "target": "bbq_sauce_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.07999112107468544,
+    "target_position": [
+      0.040842594576873295,
+      -0.09950128103786961,
+      0.05462547741860809
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 3,
+    "attempt": 3,
+    "success": false,
+    "target": "bbq_sauce_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.0009996232155015238,
+    "target_position": [
+      0.05333998784791568,
+      -0.10204214938910428,
+      0.05462547741860809
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 3,
+    "attempt": 4,
+    "success": false,
+    "target": "bbq_sauce_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.000999599853582899,
+    "target_position": [
+      0.13573548617883027,
+      -0.09175051651939557,
+      0.014502272128161598
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 3,
+    "attempt": 5,
+    "success": false,
+    "target": "bbq_sauce_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.07999631402767901,
+    "target_position": [
+      0.04471755152962341,
+      -0.0952245141630823,
+      0.05462547741860809
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 3,
+    "attempt": 6,
+    "success": false,
+    "target": "bbq_sauce_1",
+    "target_finger_contact": true,
+    "contact_objects": [
+      "bbq_sauce_1"
+    ],
+    "final_width_m": 0.02670180983314667,
+    "target_position": [
+      -0.9196497500615434,
+      0.7132239916574863,
+      0.01823162981217845
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 3,
+    "attempt": 7,
+    "success": false,
+    "target": "bbq_sauce_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.07998439313950272,
+    "target_position": [
+      0.11289313835633744,
+      -0.10614359144471126,
+      0.0145022721281616
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 3,
+    "attempt": 8,
+    "success": false,
+    "target": "bbq_sauce_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.0009995568754264288,
+    "target_position": [
+      0.042094125981594566,
+      -0.09952750675237856,
+      0.05462547741860809
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 3,
+    "attempt": 9,
+    "success": false,
+    "target": "bbq_sauce_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.07997756552567796,
+    "target_position": [
+      0.05957151596992563,
+      -0.10672598494611925,
+      0.05462547741860809
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 4,
+    "attempt": 0,
+    "success": true,
+    "target": "ketchup_1",
+    "target_finger_contact": true,
+    "contact_objects": [
+      "ketchup_1"
+    ],
+    "final_width_m": 0.03333309756022678,
+    "target_position": [
+      -0.013717241110687891,
+      0.2887117979891892,
+      0.12945230040073544
+    ],
+    "rechecked_success": true
+  },
+  {
+    "task": 4,
+    "attempt": 1,
+    "success": false,
+    "target": "ketchup_1",
+    "target_finger_contact": true,
+    "contact_objects": [
+      "ketchup_1"
+    ],
+    "final_width_m": 0.03780303830728671,
+    "target_position": [
+      -0.3795225835240281,
+      0.7455526363850014,
+      0.35152820150095354
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 4,
+    "attempt": 2,
+    "success": true,
+    "target": "ketchup_1",
+    "target_finger_contact": true,
+    "contact_objects": [
+      "ketchup_1"
+    ],
+    "final_width_m": 0.03367213362125153,
+    "target_position": [
+      -0.001000765364007669,
+      0.2982125144776113,
+      0.12829963002177544
+    ],
+    "rechecked_success": true
+  },
+  {
+    "task": 4,
+    "attempt": 3,
+    "success": true,
+    "target": "ketchup_1",
+    "target_finger_contact": true,
+    "contact_objects": [
+      "ketchup_1"
+    ],
+    "final_width_m": 0.033464219802500715,
+    "target_position": [
+      -0.020090600095392645,
+      0.2833999714730645,
+      0.13462070161842954
+    ],
+    "rechecked_success": true
+  },
+  {
+    "task": 4,
+    "attempt": 4,
+    "success": true,
+    "target": "ketchup_1",
+    "target_finger_contact": true,
+    "contact_objects": [
+      "ketchup_1"
+    ],
+    "final_width_m": 0.03343072224495064,
+    "target_position": [
+      -0.002994441671323767,
+      0.29274874331974204,
+      0.12702611605160669
+    ],
+    "rechecked_success": true
+  },
+  {
+    "task": 4,
+    "attempt": 5,
+    "success": false,
+    "target": "ketchup_1",
+    "target_finger_contact": true,
+    "contact_objects": [
+      "ketchup_1"
+    ],
+    "final_width_m": 0.03364576297392648,
+    "target_position": [
+      -0.31313932737040645,
+      0.6493990440380453,
+      0.47052913672463825
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 4,
+    "attempt": 6,
+    "success": false,
+    "target": "ketchup_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.07998299282474008,
+    "target_position": [
+      -0.13757912549766146,
+      -0.2337734666654731,
+      0.01925657493770727
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 4,
+    "attempt": 7,
+    "success": false,
+    "target": "ketchup_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.0009996057225518343,
+    "target_position": [
+      -0.34171191411872714,
+      0.7571220634271023,
+      0.07240547676577377
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 4,
+    "attempt": 8,
+    "success": true,
+    "target": "ketchup_1",
+    "target_finger_contact": true,
+    "contact_objects": [
+      "ketchup_1"
+    ],
+    "final_width_m": 0.031587894351642366,
+    "target_position": [
+      -0.03333698522924511,
+      0.2801216194882582,
+      0.13505535245483416
+    ],
+    "rechecked_success": true
+  },
+  {
+    "task": 4,
+    "attempt": 9,
+    "success": false,
+    "target": "ketchup_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.0009995875708118463,
+    "target_position": [
+      -0.04143395506107176,
+      -0.25942289232973365,
+      0.019256574937707268
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 5,
+    "attempt": 0,
+    "success": false,
+    "target": "tomato_sauce_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.07999377573947422,
+    "target_position": [
+      0.05023904907137034,
+      -0.0999392029612481,
+      0.038392596419837215
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 5,
+    "attempt": 1,
+    "success": false,
+    "target": "tomato_sauce_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.079790630796054,
+    "target_position": [
+      0.050239049071370355,
+      -0.09993920296124818,
+      0.038392596419837215
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 5,
+    "attempt": 2,
+    "success": false,
+    "target": "tomato_sauce_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.07997061462349966,
+    "target_position": [
+      0.05023904907137034,
+      -0.09993920296124811,
+      0.0383925964198372
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 5,
+    "attempt": 3,
+    "success": false,
+    "target": "tomato_sauce_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.07998998590156037,
+    "target_position": [
+      0.05023904907137034,
+      -0.09993920296124814,
+      0.038392596419837215
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 5,
+    "attempt": 4,
+    "success": false,
+    "target": "tomato_sauce_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.07793322365112368,
+    "target_position": [
+      0.050239049071370355,
+      -0.0999392029612481,
+      0.038392596419837215
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 5,
+    "attempt": 5,
+    "success": false,
+    "target": "tomato_sauce_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.07997420378946896,
+    "target_position": [
+      0.05023904907137034,
+      -0.0999392029612481,
+      0.038392596419837215
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 5,
+    "attempt": 6,
+    "success": false,
+    "target": "tomato_sauce_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.07998812038719172,
+    "target_position": [
+      0.050239049071370334,
+      -0.09993920296124814,
+      0.038392596419837215
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 5,
+    "attempt": 7,
+    "success": false,
+    "target": "tomato_sauce_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.07998884875362047,
+    "target_position": [
+      0.05023904907137035,
+      -0.09993920296124813,
+      0.038392596419837215
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 5,
+    "attempt": 8,
+    "success": false,
+    "target": "tomato_sauce_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.07997876884707456,
+    "target_position": [
+      0.05023904907137034,
+      -0.09993920296124811,
+      0.038392596419837215
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 5,
+    "attempt": 9,
+    "success": false,
+    "target": "tomato_sauce_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.07999307139899339,
+    "target_position": [
+      0.05023904907137034,
+      -0.0999392029612481,
+      0.038392596419837215
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 6,
+    "attempt": 0,
+    "success": false,
+    "target": "butter_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.07999683536453414,
+    "target_position": [
+      -0.09722069354569952,
+      -0.26633224669325745,
+      0.019755477418608103
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 6,
+    "attempt": 1,
+    "success": false,
+    "target": "butter_1",
+    "target_finger_contact": true,
+    "contact_objects": [
+      "butter_1"
+    ],
+    "final_width_m": 0.03894461772079187,
+    "target_position": [
+      -0.9515297274252869,
+      0.7132984954288227,
+      0.05639581243200434
+    ],
+    "rechecked_success": false
+  },
+  {
+    "task": 6,
+    "attempt": 2,
+    "success": false,
+    "target": "butter_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.0032945941892116633,
+    "target_position": [
+      -0.12436017322972365,
+      -0.24900477461754048,
+      0.00869547741860811
+    ],
+    "rechecked_success": false
+  }
+]

@@ -1,0 +1,103 @@
+{
+  "total_updates": 3464,
+  "nominal_passes": 2,
+  "effective_batch": 32,
+  "train_episodes": 389,
+  "validation_episodes": 44,
+  "train_examples": 55411,
+  "validation_examples": 6305,
+  "validation_metrics": [
+    {
+      "epoch": 0.5,
+      "eval_loss": 0.06767686456441879,
+      "eval_runtime": 761.7348,
+      "eval_samples_per_second": 11.01,
+      "eval_steps_per_second": 11.01,
+      "step": 1732
+    },
+    {
+      "epoch": 1.3562355658198615,
+      "eval_loss": 0.05632103979587555,
+      "eval_runtime": 912.5278,
+      "eval_samples_per_second": 9.191,
+      "eval_steps_per_second": 9.191,
+      "step": 3464
+    }
+  ],
+  "selected_checkpoint": "checkpoint-3464",
+  "adapter_sha256": "d4aa122b669e60eba092eedab1c718823177835f1c2dbc1b976346d2ecb0aa46",
+  "launches": [
+    {
+      "config_sha256": "f375735c4885c48638816bc0a454d6d777322ea491c9a481ab5994a1ee90fe07",
+      "base_config_sha256": "0b2821ca38f1e7654574523cc8181ca36ea7e031323f81fa0fe47bcc80af7686",
+      "probe": false,
+      "nominal_passes": 2,
+      "total_updates": 3464,
+      "microbatch": 32,
+      "accumulation": 1,
+      "loader_workers": 2,
+      "omp_num_threads": "4",
+      "kernel_profile": {
+        "torch": "2.11.0+cu129",
+        "triton": "3.7.1",
+        "fla-core": "0.5.2",
+        "flash-linear-attention": "0.5.2",
+        "causal-conv1d": "1.7.0",
+        "complete_fast_path": true
+      },
+      "resume_checkpoint": null,
+      "completed_updates": 0,
+      "log_start_bytes": 0,
+      "resume_adapter_sha256": null
+    },
+    {
+      "config_sha256": "f375735c4885c48638816bc0a454d6d777322ea491c9a481ab5994a1ee90fe07",
+      "base_config_sha256": "0b2821ca38f1e7654574523cc8181ca36ea7e031323f81fa0fe47bcc80af7686",
+      "probe": false,
+      "nominal_passes": 2,
+      "total_updates": 3464,
+      "microbatch": 32,
+      "accumulation": 1,
+      "loader_workers": 2,
+      "omp_num_threads": "4",
+      "kernel_profile": {
+        "torch": "2.11.0+cu129",
+        "triton": "3.7.1",
+        "fla-core": "0.5.2",
+        "flash-linear-attention": "0.5.2",
+        "causal-conv1d": "1.7.0",
+        "complete_fast_path": true
+      },
+      "resume_checkpoint": null,
+      "completed_updates": 0,
+      "log_start_bytes": 0,
+      "resume_adapter_sha256": null
+    },
+    {
+      "config_sha256": "72ea02a08325cafe40255d274449d60b7d6c9727703f9811d31e915fd5295631",
+      "base_config_sha256": "0b2821ca38f1e7654574523cc8181ca36ea7e031323f81fa0fe47bcc80af7686",
+      "probe": false,
+      "nominal_passes": 2,
+      "total_updates": 3464,
+      "microbatch": 32,
+      "accumulation": 1,
+      "loader_workers": 2,
+      "omp_num_threads": "4",
+      "save_steps": 500,
+      "eval_steps": 1732,
+      "kernel_profile": {
+        "torch": "2.11.0+cu129",
+        "triton": "3.7.1",
+        "fla-core": "0.5.2",
+        "flash-linear-attention": "0.5.2",
+        "causal-conv1d": "1.7.0",
+        "complete_fast_path": true
+      },
+      "resume_checkpoint": "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/training-output/checkpoint-1732",
+      "completed_updates": 1732,
+      "log_start_bytes": 139215,
+      "resume_adapter_sha256": "5d6bbbe317a79526179446a2c875f5bd6aabae7a0c506959d4770169c90983f6"
+    }
+  ],
+  "checkpoint_caveat": "Although runtime save_steps was changed to 500, the resumed run retained only checkpoints 1732 and 3464. Intermediate cadence is not verified and requires investigation before extending."
+}

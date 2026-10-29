@@ -1,0 +1,57 @@
+{
+  "toolchain_packages": {
+    "cuda-cccl-12-9": {
+      "Package": "cuda-cccl-12-9",
+      "Version": "12.9.27-1",
+      "Filename": "./cuda-cccl-12-9_12.9.27-1_amd64.deb",
+      "SHA256": "255b92bd5e09cd10aedaf098d1ee0f66ca1a9062efe96e2e1f385583ddf18c73",
+      "Size": "1040468"
+    },
+    "cuda-crt-12-9": {
+      "Package": "cuda-crt-12-9",
+      "Version": "12.9.86-1",
+      "Filename": "./cuda-crt-12-9_12.9.86-1_amd64.deb",
+      "SHA256": "364c82d5fd53b6687aca004c4583fd119a98e0fe72798d88b0fdedc56ad5aecf",
+      "Size": "82138"
+    },
+    "cuda-cudart-12-9": {
+      "Package": "cuda-cudart-12-9",
+      "Version": "12.9.79-1",
+      "Filename": "./cuda-cudart-12-9_12.9.79-1_amd64.deb",
+      "SHA256": "2649df5457dcf9a741f979b5c71e09aba563a11ef1c84a0725c3fe7a37625e6e",
+      "Size": "173102"
+    },
+    "cuda-cudart-dev-12-9": {
+      "Package": "cuda-cudart-dev-12-9",
+      "Version": "12.9.79-1",
+      "Filename": "./cuda-cudart-dev-12-9_12.9.79-1_amd64.deb",
+      "SHA256": "e3ca8561b6bec2a92928ebafd68ed9278bf66d5521a2584d6370792386b247c0",
+      "Size": "1414876"
+    },
+    "cuda-driver-dev-12-9": {
+      "Package": "cuda-driver-dev-12-9",
+      "Version": "12.9.79-1",
+      "Filename": "./cuda-driver-dev-12-9_12.9.79-1_amd64.deb",
+      "SHA256": "5fece9ec181860350dbda0e6368cee79797c6f00f9a44f376d241a1889e5608b",
+      "Size": "29308"
+    },
+    "cuda-nvcc-12-9": {
+      "Package": "cuda-nvcc-12-9",
+      "Version": "12.9.86-1",
+      "Filename": "./cuda-nvcc-12-9_12.9.86-1_amd64.deb",
+      "SHA256": "66c11ad4fba8c12c44a1fec346c5125011e2ed519b98a787966dda0df9043b45",
+      "Size": "38621260"
+    },
+    "cuda-nvvm-12-9": {
+      "Package": "cuda-nvvm-12-9",
+      "Version": "12.9.86-1",
+      "Filename": "./cuda-nvvm-12-9_12.9.86-1_amd64.deb",
+      "SHA256": "679b7fa53d30dcb7d2f5f55107274fa502ff18071c6c1235cb941fcbe22a1403",
+      "Size": "43128144"
+    }
+  },
+  "toolchain_repository": "https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/",
+  "source_url": "https://github.com/Dao-AILab/causal-conv1d/archive/refs/tags/v1.7.0.tar.gz",
+  "source_sha256": "708bacd4fb4ef6cad3999c9360e2a0f9521f556748a745b60f746b275db73c09",
+  "adaptation": "Only compile detected GPU architecture; no kernel-source changes"
+}

@@ -1,0 +1,674 @@
+[
+  {
+    "task": 0,
+    "demo": 12,
+    "phase": "start",
+    "index": 0,
+    "target": "RT_YAW_CCW",
+    "predicted": "RT_PITCH_BACK",
+    "raw": "RT_PITCH_BACK",
+    "correct": false,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-00/demo-012/converted/pick_up_the_alphabet_soup_and_place_it_in_the_basket_follow/rollout_000/agentview/0000.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-00/demo-012/converted/pick_up_the_alphabet_soup_and_place_it_in_the_basket_follow/rollout_000/wrist/0000.png"
+    ]
+  },
+  {
+    "task": 0,
+    "demo": 12,
+    "phase": "first_translation",
+    "index": 1,
+    "target": "MV_LEFT",
+    "predicted": "RT_YAW_CCW",
+    "raw": "RT_YAW_CCW",
+    "correct": false,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-00/demo-012/converted/pick_up_the_alphabet_soup_and_place_it_in_the_basket_follow/rollout_000/agentview/0001.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-00/demo-012/converted/pick_up_the_alphabet_soup_and_place_it_in_the_basket_follow/rollout_000/wrist/0001.png"
+    ]
+  },
+  {
+    "task": 0,
+    "demo": 12,
+    "phase": "pre_grasp",
+    "index": 48,
+    "target": "GRASP",
+    "predicted": "GRASP",
+    "raw": "GRASP",
+    "correct": true,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-00/demo-012/converted/pick_up_the_alphabet_soup_and_place_it_in_the_basket_follow/rollout_000/agentview/0048.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-00/demo-012/converted/pick_up_the_alphabet_soup_and_place_it_in_the_basket_follow/rollout_000/wrist/0048.png"
+    ]
+  },
+  {
+    "task": 0,
+    "demo": 15,
+    "phase": "start",
+    "index": 0,
+    "target": "RT_YAW_CW",
+    "predicted": "RT_PITCH_FWD",
+    "raw": "RT_PITCH_FWD",
+    "correct": false,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-00/demo-015/converted/pick_up_the_alphabet_soup_and_place_it_in_the_basket_follow/rollout_000/agentview/0000.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-00/demo-015/converted/pick_up_the_alphabet_soup_and_place_it_in_the_basket_follow/rollout_000/wrist/0000.png"
+    ]
+  },
+  {
+    "task": 0,
+    "demo": 15,
+    "phase": "first_translation",
+    "index": 1,
+    "target": "MV_LEFT",
+    "predicted": "RT_YAW_CW",
+    "raw": "RT_YAW_CW",
+    "correct": false,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-00/demo-015/converted/pick_up_the_alphabet_soup_and_place_it_in_the_basket_follow/rollout_000/agentview/0001.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-00/demo-015/converted/pick_up_the_alphabet_soup_and_place_it_in_the_basket_follow/rollout_000/wrist/0001.png"
+    ]
+  },
+  {
+    "task": 0,
+    "demo": 15,
+    "phase": "pre_grasp",
+    "index": 49,
+    "target": "GRASP",
+    "predicted": "GRASP",
+    "raw": "GRASP",
+    "correct": true,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-00/demo-015/converted/pick_up_the_alphabet_soup_and_place_it_in_the_basket_follow/rollout_000/agentview/0049.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-00/demo-015/converted/pick_up_the_alphabet_soup_and_place_it_in_the_basket_follow/rollout_000/wrist/0049.png"
+    ]
+  },
+  {
+    "task": 0,
+    "demo": 7,
+    "phase": "start",
+    "index": 0,
+    "target": "RT_PITCH_FWD",
+    "predicted": "RT_PITCH_FWD",
+    "raw": "RT_PITCH_FWD",
+    "correct": true,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-00/demo-007/converted/pick_up_the_alphabet_soup_and_place_it_in_the_basket_follow/rollout_000/agentview/0000.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-00/demo-007/converted/pick_up_the_alphabet_soup_and_place_it_in_the_basket_follow/rollout_000/wrist/0000.png"
+    ]
+  },
+  {
+    "task": 0,
+    "demo": 7,
+    "phase": "first_translation",
+    "index": 2,
+    "target": "MV_LEFT",
+    "predicted": "MV_LEFT",
+    "raw": "MV_LEFT",
+    "correct": true,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-00/demo-007/converted/pick_up_the_alphabet_soup_and_place_it_in_the_basket_follow/rollout_000/agentview/0002.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-00/demo-007/converted/pick_up_the_alphabet_soup_and_place_it_in_the_basket_follow/rollout_000/wrist/0002.png"
+    ]
+  },
+  {
+    "task": 0,
+    "demo": 7,
+    "phase": "pre_grasp",
+    "index": 53,
+    "target": "GRASP",
+    "predicted": "GRASP",
+    "raw": "GRASP",
+    "correct": true,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-00/demo-007/converted/pick_up_the_alphabet_soup_and_place_it_in_the_basket_follow/rollout_000/agentview/0053.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-00/demo-007/converted/pick_up_the_alphabet_soup_and_place_it_in_the_basket_follow/rollout_000/wrist/0053.png"
+    ]
+  },
+  {
+    "task": 0,
+    "demo": 36,
+    "phase": "start",
+    "index": 0,
+    "target": "RT_PITCH_FWD",
+    "predicted": "RT_PITCH_BACK",
+    "raw": "RT_PITCH_BACK",
+    "correct": false,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-00/demo-036/converted/pick_up_the_alphabet_soup_and_place_it_in_the_basket_follow/rollout_000/agentview/0000.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-00/demo-036/converted/pick_up_the_alphabet_soup_and_place_it_in_the_basket_follow/rollout_000/wrist/0000.png"
+    ]
+  },
+  {
+    "task": 0,
+    "demo": 36,
+    "phase": "first_translation",
+    "index": 2,
+    "target": "MV_LEFT",
+    "predicted": "RT_YAW_CW",
+    "raw": "RT_YAW_CW",
+    "correct": false,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-00/demo-036/converted/pick_up_the_alphabet_soup_and_place_it_in_the_basket_follow/rollout_000/agentview/0002.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-00/demo-036/converted/pick_up_the_alphabet_soup_and_place_it_in_the_basket_follow/rollout_000/wrist/0002.png"
+    ]
+  },
+  {
+    "task": 0,
+    "demo": 36,
+    "phase": "pre_grasp",
+    "index": 51,
+    "target": "GRASP",
+    "predicted": "GRASP",
+    "raw": "GRASP",
+    "correct": true,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-00/demo-036/converted/pick_up_the_alphabet_soup_and_place_it_in_the_basket_follow/rollout_000/agentview/0051.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-00/demo-036/converted/pick_up_the_alphabet_soup_and_place_it_in_the_basket_follow/rollout_000/wrist/0051.png"
+    ]
+  },
+  {
+    "task": 1,
+    "demo": 24,
+    "phase": "start",
+    "index": 0,
+    "target": "RT_PITCH_BACK",
+    "predicted": "RT_YAW_CW",
+    "raw": "RT_YAW_CW",
+    "correct": false,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-01/demo-024/converted/pick_up_the_cream_cheese_and_place_it_in_the_basket_follow/rollout_000/agentview/0000.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-01/demo-024/converted/pick_up_the_cream_cheese_and_place_it_in_the_basket_follow/rollout_000/wrist/0000.png"
+    ]
+  },
+  {
+    "task": 1,
+    "demo": 24,
+    "phase": "first_translation",
+    "index": 1,
+    "target": "MV_FWD",
+    "predicted": "RT_PITCH_BACK",
+    "raw": "RT_PITCH_BACK",
+    "correct": false,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-01/demo-024/converted/pick_up_the_cream_cheese_and_place_it_in_the_basket_follow/rollout_000/agentview/0001.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-01/demo-024/converted/pick_up_the_cream_cheese_and_place_it_in_the_basket_follow/rollout_000/wrist/0001.png"
+    ]
+  },
+  {
+    "task": 1,
+    "demo": 24,
+    "phase": "pre_grasp",
+    "index": 48,
+    "target": "GRASP",
+    "predicted": "GRASP",
+    "raw": "GRASP",
+    "correct": true,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-01/demo-024/converted/pick_up_the_cream_cheese_and_place_it_in_the_basket_follow/rollout_000/agentview/0048.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-01/demo-024/converted/pick_up_the_cream_cheese_and_place_it_in_the_basket_follow/rollout_000/wrist/0048.png"
+    ]
+  },
+  {
+    "task": 1,
+    "demo": 25,
+    "phase": "start",
+    "index": 0,
+    "target": "RT_PITCH_FWD",
+    "predicted": "RT_YAW_CW",
+    "raw": "RT_YAW_CW",
+    "correct": false,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-01/demo-025/converted/pick_up_the_cream_cheese_and_place_it_in_the_basket_follow/rollout_000/agentview/0000.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-01/demo-025/converted/pick_up_the_cream_cheese_and_place_it_in_the_basket_follow/rollout_000/wrist/0000.png"
+    ]
+  },
+  {
+    "task": 1,
+    "demo": 25,
+    "phase": "first_translation",
+    "index": 1,
+    "target": "MV_FWD",
+    "predicted": "RT_PITCH_FWD",
+    "raw": "RT_PITCH_FWD",
+    "correct": false,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-01/demo-025/converted/pick_up_the_cream_cheese_and_place_it_in_the_basket_follow/rollout_000/agentview/0001.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-01/demo-025/converted/pick_up_the_cream_cheese_and_place_it_in_the_basket_follow/rollout_000/wrist/0001.png"
+    ]
+  },
+  {
+    "task": 1,
+    "demo": 25,
+    "phase": "pre_grasp",
+    "index": 53,
+    "target": "GRASP",
+    "predicted": "GRASP",
+    "raw": "GRASP",
+    "correct": true,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-01/demo-025/converted/pick_up_the_cream_cheese_and_place_it_in_the_basket_follow/rollout_000/agentview/0053.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-01/demo-025/converted/pick_up_the_cream_cheese_and_place_it_in_the_basket_follow/rollout_000/wrist/0053.png"
+    ]
+  },
+  {
+    "task": 1,
+    "demo": 20,
+    "phase": "start",
+    "index": 0,
+    "target": "RT_YAW_CW",
+    "predicted": "RT_YAW_CW",
+    "raw": "RT_YAW_CW",
+    "correct": true,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-01/demo-020/converted/pick_up_the_cream_cheese_and_place_it_in_the_basket_follow/rollout_000/agentview/0000.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-01/demo-020/converted/pick_up_the_cream_cheese_and_place_it_in_the_basket_follow/rollout_000/wrist/0000.png"
+    ]
+  },
+  {
+    "task": 1,
+    "demo": 20,
+    "phase": "first_translation",
+    "index": 4,
+    "target": "MV_FWD",
+    "predicted": "RT_YAW_CW",
+    "raw": "RT_YAW_CW",
+    "correct": false,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-01/demo-020/converted/pick_up_the_cream_cheese_and_place_it_in_the_basket_follow/rollout_000/agentview/0004.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-01/demo-020/converted/pick_up_the_cream_cheese_and_place_it_in_the_basket_follow/rollout_000/wrist/0004.png"
+    ]
+  },
+  {
+    "task": 1,
+    "demo": 20,
+    "phase": "pre_grasp",
+    "index": 59,
+    "target": "GRASP",
+    "predicted": "GRASP",
+    "raw": "GRASP",
+    "correct": true,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-01/demo-020/converted/pick_up_the_cream_cheese_and_place_it_in_the_basket_follow/rollout_000/agentview/0059.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-01/demo-020/converted/pick_up_the_cream_cheese_and_place_it_in_the_basket_follow/rollout_000/wrist/0059.png"
+    ]
+  },
+  {
+    "task": 1,
+    "demo": 48,
+    "phase": "start",
+    "index": 0,
+    "target": "RT_YAW_CW",
+    "predicted": "RT_YAW_CW",
+    "raw": "RT_YAW_CW",
+    "correct": true,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-01/demo-048/converted/pick_up_the_cream_cheese_and_place_it_in_the_basket_follow/rollout_000/agentview/0000.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-01/demo-048/converted/pick_up_the_cream_cheese_and_place_it_in_the_basket_follow/rollout_000/wrist/0000.png"
+    ]
+  },
+  {
+    "task": 1,
+    "demo": 48,
+    "phase": "first_translation",
+    "index": 2,
+    "target": "MV_FWD",
+    "predicted": "MV_FWD",
+    "raw": "MV_FWD",
+    "correct": true,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-01/demo-048/converted/pick_up_the_cream_cheese_and_place_it_in_the_basket_follow/rollout_000/agentview/0002.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-01/demo-048/converted/pick_up_the_cream_cheese_and_place_it_in_the_basket_follow/rollout_000/wrist/0002.png"
+    ]
+  },
+  {
+    "task": 1,
+    "demo": 48,
+    "phase": "pre_grasp",
+    "index": 53,
+    "target": "GRASP",
+    "predicted": "GRASP",
+    "raw": "GRASP",
+    "correct": true,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-01/demo-048/converted/pick_up_the_cream_cheese_and_place_it_in_the_basket_follow/rollout_000/agentview/0053.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-01/demo-048/converted/pick_up_the_cream_cheese_and_place_it_in_the_basket_follow/rollout_000/wrist/0053.png"
+    ]
+  },
+  {
+    "task": 3,
+    "demo": 46,
+    "phase": "start",
+    "index": 0,
+    "target": "RT_YAW_CW",
+    "predicted": "RT_YAW_CW",
+    "raw": "RT_YAW_CW",
+    "correct": true,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-03/demo-046/converted/pick_up_the_bbq_sauce_and_place_it_in_the_basket_follow/rollout_000/agentview/0000.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-03/demo-046/converted/pick_up_the_bbq_sauce_and_place_it_in_the_basket_follow/rollout_000/wrist/0000.png"
+    ]
+  },
+  {
+    "task": 3,
+    "demo": 46,
+    "phase": "first_translation",
+    "index": 4,
+    "target": "MV_FWD",
+    "predicted": "RT_PITCH_FWD",
+    "raw": "RT_PITCH_FWD",
+    "correct": false,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-03/demo-046/converted/pick_up_the_bbq_sauce_and_place_it_in_the_basket_follow/rollout_000/agentview/0004.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-03/demo-046/converted/pick_up_the_bbq_sauce_and_place_it_in_the_basket_follow/rollout_000/wrist/0004.png"
+    ]
+  },
+  {
+    "task": 3,
+    "demo": 46,
+    "phase": "pre_grasp",
+    "index": 52,
+    "target": "GRASP",
+    "predicted": "GRASP",
+    "raw": "GRASP",
+    "correct": true,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-03/demo-046/converted/pick_up_the_bbq_sauce_and_place_it_in_the_basket_follow/rollout_000/agentview/0052.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-03/demo-046/converted/pick_up_the_bbq_sauce_and_place_it_in_the_basket_follow/rollout_000/wrist/0052.png"
+    ]
+  },
+  {
+    "task": 3,
+    "demo": 7,
+    "phase": "start",
+    "index": 0,
+    "target": "RT_PITCH_BACK",
+    "predicted": "RT_PITCH_FWD",
+    "raw": "RT_PITCH_FWD",
+    "correct": false,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-03/demo-007/converted/pick_up_the_bbq_sauce_and_place_it_in_the_basket_follow/rollout_000/agentview/0000.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-03/demo-007/converted/pick_up_the_bbq_sauce_and_place_it_in_the_basket_follow/rollout_000/wrist/0000.png"
+    ]
+  },
+  {
+    "task": 3,
+    "demo": 7,
+    "phase": "first_translation",
+    "index": 2,
+    "target": "MV_FWD",
+    "predicted": "MV_FWD",
+    "raw": "MV_FWD",
+    "correct": true,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-03/demo-007/converted/pick_up_the_bbq_sauce_and_place_it_in_the_basket_follow/rollout_000/agentview/0002.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-03/demo-007/converted/pick_up_the_bbq_sauce_and_place_it_in_the_basket_follow/rollout_000/wrist/0002.png"
+    ]
+  },
+  {
+    "task": 3,
+    "demo": 7,
+    "phase": "pre_grasp",
+    "index": 50,
+    "target": "GRASP",
+    "predicted": "MV_DOWN",
+    "raw": "MV_DOWN",
+    "correct": false,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-03/demo-007/converted/pick_up_the_bbq_sauce_and_place_it_in_the_basket_follow/rollout_000/agentview/0050.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-03/demo-007/converted/pick_up_the_bbq_sauce_and_place_it_in_the_basket_follow/rollout_000/wrist/0050.png"
+    ]
+  },
+  {
+    "task": 3,
+    "demo": 48,
+    "phase": "start",
+    "index": 0,
+    "target": "RT_PITCH_BACK",
+    "predicted": "RT_PITCH_FWD",
+    "raw": "RT_PITCH_FWD",
+    "correct": false,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-03/demo-048/converted/pick_up_the_bbq_sauce_and_place_it_in_the_basket_follow/rollout_000/agentview/0000.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-03/demo-048/converted/pick_up_the_bbq_sauce_and_place_it_in_the_basket_follow/rollout_000/wrist/0000.png"
+    ]
+  },
+  {
+    "task": 3,
+    "demo": 48,
+    "phase": "first_translation",
+    "index": 4,
+    "target": "MV_FWD",
+    "predicted": "MV_FWD",
+    "raw": "MV_FWD",
+    "correct": true,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-03/demo-048/converted/pick_up_the_bbq_sauce_and_place_it_in_the_basket_follow/rollout_000/agentview/0004.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-03/demo-048/converted/pick_up_the_bbq_sauce_and_place_it_in_the_basket_follow/rollout_000/wrist/0004.png"
+    ]
+  },
+  {
+    "task": 3,
+    "demo": 48,
+    "phase": "pre_grasp",
+    "index": 52,
+    "target": "GRASP",
+    "predicted": "GRASP",
+    "raw": "GRASP",
+    "correct": true,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-03/demo-048/converted/pick_up_the_bbq_sauce_and_place_it_in_the_basket_follow/rollout_000/agentview/0052.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-03/demo-048/converted/pick_up_the_bbq_sauce_and_place_it_in_the_basket_follow/rollout_000/wrist/0052.png"
+    ]
+  },
+  {
+    "task": 3,
+    "demo": 10,
+    "phase": "start",
+    "index": 0,
+    "target": "RT_YAW_CW",
+    "predicted": "RT_PITCH_FWD",
+    "raw": "RT_PITCH_FWD",
+    "correct": false,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-03/demo-010/converted/pick_up_the_bbq_sauce_and_place_it_in_the_basket_follow/rollout_000/agentview/0000.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-03/demo-010/converted/pick_up_the_bbq_sauce_and_place_it_in_the_basket_follow/rollout_000/wrist/0000.png"
+    ]
+  },
+  {
+    "task": 3,
+    "demo": 10,
+    "phase": "first_translation",
+    "index": 8,
+    "target": "MV_FWD",
+    "predicted": "MV_FWD",
+    "raw": "MV_FWD",
+    "correct": true,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-03/demo-010/converted/pick_up_the_bbq_sauce_and_place_it_in_the_basket_follow/rollout_000/agentview/0008.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-03/demo-010/converted/pick_up_the_bbq_sauce_and_place_it_in_the_basket_follow/rollout_000/wrist/0008.png"
+    ]
+  },
+  {
+    "task": 3,
+    "demo": 10,
+    "phase": "pre_grasp",
+    "index": 56,
+    "target": "GRASP",
+    "predicted": "GRASP",
+    "raw": "GRASP",
+    "correct": true,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-03/demo-010/converted/pick_up_the_bbq_sauce_and_place_it_in_the_basket_follow/rollout_000/agentview/0056.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-03/demo-010/converted/pick_up_the_bbq_sauce_and_place_it_in_the_basket_follow/rollout_000/wrist/0056.png"
+    ]
+  },
+  {
+    "task": 5,
+    "demo": 45,
+    "phase": "start",
+    "index": 0,
+    "target": "RT_YAW_CW",
+    "predicted": "RT_YAW_CW",
+    "raw": "RT_YAW_CW",
+    "correct": true,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-05/demo-045/converted/pick_up_the_tomato_sauce_and_place_it_in_the_basket_follow/rollout_000/agentview/0000.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-05/demo-045/converted/pick_up_the_tomato_sauce_and_place_it_in_the_basket_follow/rollout_000/wrist/0000.png"
+    ]
+  },
+  {
+    "task": 5,
+    "demo": 45,
+    "phase": "first_translation",
+    "index": 7,
+    "target": "MV_FWD",
+    "predicted": "MV_FWD",
+    "raw": "MV_FWD",
+    "correct": true,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-05/demo-045/converted/pick_up_the_tomato_sauce_and_place_it_in_the_basket_follow/rollout_000/agentview/0007.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-05/demo-045/converted/pick_up_the_tomato_sauce_and_place_it_in_the_basket_follow/rollout_000/wrist/0007.png"
+    ]
+  },
+  {
+    "task": 5,
+    "demo": 45,
+    "phase": "pre_grasp",
+    "index": 57,
+    "target": "GRASP",
+    "predicted": "GRASP",
+    "raw": "GRASP",
+    "correct": true,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-05/demo-045/converted/pick_up_the_tomato_sauce_and_place_it_in_the_basket_follow/rollout_000/agentview/0057.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-05/demo-045/converted/pick_up_the_tomato_sauce_and_place_it_in_the_basket_follow/rollout_000/wrist/0057.png"
+    ]
+  },
+  {
+    "task": 5,
+    "demo": 13,
+    "phase": "start",
+    "index": 0,
+    "target": "RT_YAW_CW",
+    "predicted": "RT_YAW_CW",
+    "raw": "RT_YAW_CW",
+    "correct": true,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-05/demo-013/converted/pick_up_the_tomato_sauce_and_place_it_in_the_basket_follow/rollout_000/agentview/0000.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-05/demo-013/converted/pick_up_the_tomato_sauce_and_place_it_in_the_basket_follow/rollout_000/wrist/0000.png"
+    ]
+  },
+  {
+    "task": 5,
+    "demo": 13,
+    "phase": "first_translation",
+    "index": 10,
+    "target": "MV_FWD",
+    "predicted": "MV_FWD",
+    "raw": "MV_FWD",
+    "correct": true,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-05/demo-013/converted/pick_up_the_tomato_sauce_and_place_it_in_the_basket_follow/rollout_000/agentview/0010.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-05/demo-013/converted/pick_up_the_tomato_sauce_and_place_it_in_the_basket_follow/rollout_000/wrist/0010.png"
+    ]
+  },
+  {
+    "task": 5,
+    "demo": 13,
+    "phase": "pre_grasp",
+    "index": 61,
+    "target": "GRASP",
+    "predicted": "GRASP",
+    "raw": "GRASP",
+    "correct": true,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-05/demo-013/converted/pick_up_the_tomato_sauce_and_place_it_in_the_basket_follow/rollout_000/agentview/0061.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-05/demo-013/converted/pick_up_the_tomato_sauce_and_place_it_in_the_basket_follow/rollout_000/wrist/0061.png"
+    ]
+  },
+  {
+    "task": 5,
+    "demo": 25,
+    "phase": "start",
+    "index": 0,
+    "target": "RT_YAW_CW",
+    "predicted": "RT_YAW_CW",
+    "raw": "RT_YAW_CW",
+    "correct": true,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-05/demo-025/converted/pick_up_the_tomato_sauce_and_place_it_in_the_basket_follow/rollout_000/agentview/0000.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-05/demo-025/converted/pick_up_the_tomato_sauce_and_place_it_in_the_basket_follow/rollout_000/wrist/0000.png"
+    ]
+  },
+  {
+    "task": 5,
+    "demo": 25,
+    "phase": "first_translation",
+    "index": 9,
+    "target": "MV_FWD",
+    "predicted": "RT_YAW_CW",
+    "raw": "RT_YAW_CW",
+    "correct": false,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-05/demo-025/converted/pick_up_the_tomato_sauce_and_place_it_in_the_basket_follow/rollout_000/agentview/0009.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-05/demo-025/converted/pick_up_the_tomato_sauce_and_place_it_in_the_basket_follow/rollout_000/wrist/0009.png"
+    ]
+  },
+  {
+    "task": 5,
+    "demo": 25,
+    "phase": "pre_grasp",
+    "index": 57,
+    "target": "GRASP",
+    "predicted": "MV_DOWN",
+    "raw": "MV_DOWN",
+    "correct": false,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-05/demo-025/converted/pick_up_the_tomato_sauce_and_place_it_in_the_basket_follow/rollout_000/agentview/0057.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-05/demo-025/converted/pick_up_the_tomato_sauce_and_place_it_in_the_basket_follow/rollout_000/wrist/0057.png"
+    ]
+  },
+  {
+    "task": 5,
+    "demo": 48,
+    "phase": "start",
+    "index": 0,
+    "target": "RT_YAW_CW",
+    "predicted": "RT_YAW_CW",
+    "raw": "RT_YAW_CW",
+    "correct": true,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-05/demo-048/converted/pick_up_the_tomato_sauce_and_place_it_in_the_basket_follow/rollout_000/agentview/0000.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-05/demo-048/converted/pick_up_the_tomato_sauce_and_place_it_in_the_basket_follow/rollout_000/wrist/0000.png"
+    ]
+  },
+  {
+    "task": 5,
+    "demo": 48,
+    "phase": "first_translation",
+    "index": 11,
+    "target": "MV_FWD",
+    "predicted": "MV_FWD",
+    "raw": "MV_FWD",
+    "correct": true,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-05/demo-048/converted/pick_up_the_tomato_sauce_and_place_it_in_the_basket_follow/rollout_000/agentview/0011.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-05/demo-048/converted/pick_up_the_tomato_sauce_and_place_it_in_the_basket_follow/rollout_000/wrist/0011.png"
+    ]
+  },
+  {
+    "task": 5,
+    "demo": 48,
+    "phase": "pre_grasp",
+    "index": 58,
+    "target": "GRASP",
+    "predicted": "MV_UP",
+    "raw": "MV_UP",
+    "correct": false,
+    "images": [
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-05/demo-048/converted/pick_up_the_tomato_sauce_and_place_it_in_the_basket_follow/rollout_000/agentview/0058.png",
+      "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-20261009T203209-239977/episodes/task-05/demo-048/converted/pick_up_the_tomato_sauce_and_place_it_in_the_basket_follow/rollout_000/wrist/0058.png"
+    ]
+  }
+]

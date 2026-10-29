@@ -1,0 +1,885 @@
+{
+  "baseline": "/home/jovyan/rise-project/.milestone01/data-replay/run-20261009T125317",
+  "experiment": "/home/jovyan/rise-project/.milestone01/data-replay/step-1cm-20261009T131307-169534",
+  "two_cm_success": 9,
+  "one_cm_success": 9,
+  "one_cm_conversion_success": 9,
+  "two_cm_actions": 702,
+  "one_cm_actions": 1333,
+  "pairs": [
+    {
+      "episode": "train:0",
+      "baseline": {
+        "episode": "train:0",
+        "directory": "train-000",
+        "actions": 68,
+        "live_success": true,
+        "recorded_success": true,
+        "mean_tcp_error_mm": 0.049105062723618226,
+        "max_tcp_error_mm": 0.22409689903592628,
+        "max_rotation_error_deg": 0.1047606071639331,
+        "mean_delta_error_mm": 0.02346618040931183,
+        "max_delta_error_mm": 0.20540121860458163,
+        "max_gripper_error_mm": 3.6497688201531098,
+        "max_image_mae": 0.17365010579427084,
+        "video_frames": 139,
+        "wall_seconds": 70.90892809210345,
+        "critical_actions": [
+          {
+            "action": "GRASP",
+            "frame": 33,
+            "tcp_error_mm": 0.053161665976651486,
+            "gripper_error_mm": 0.038371693936598006
+          },
+          {
+            "action": "RELEASE",
+            "frame": 66,
+            "tcp_error_mm": 0.006647771920383515,
+            "gripper_error_mm": 0.00255537045051879
+          }
+        ]
+      },
+      "one_cm": {
+        "episode": "train:0",
+        "directory": "train-000",
+        "actions": 129,
+        "live_success": true,
+        "recorded_success": true,
+        "source_success": true,
+        "mean_tcp_error_mm": 0.040767906866976227,
+        "max_tcp_error_mm": 0.4187233577750242,
+        "max_rotation_error_deg": 0.03472329803883304,
+        "mean_delta_error_mm": 0.019613585427735166,
+        "max_delta_error_mm": 0.6918975920780952,
+        "max_gripper_error_mm": 3.6981850766408253,
+        "max_image_mae": 0.13487752278645834,
+        "video_frames": 139,
+        "wall_seconds": 75.82714587077498,
+        "critical_actions": [
+          {
+            "action": "GRASP",
+            "frame": 62,
+            "tcp_error_mm": 0.4187233577750242,
+            "gripper_error_mm": 0.1275873840366204
+          },
+          {
+            "action": "RELEASE",
+            "frame": 124,
+            "tcp_error_mm": 0.0009604208879432651,
+            "gripper_error_mm": 0.0025605935197181573
+          }
+        ]
+      },
+      "conversion": {
+        "episode": "train:0",
+        "source_success": true,
+        "reason": "",
+        "actions": 129,
+        "mode": "simplified",
+        "baseline_mode": "simplified",
+        "anchor_shift_cm": [
+          -0.16,
+          0.08,
+          -0.29
+        ],
+        "baseline_anchor_shift_cm": [
+          0.84,
+          0.08,
+          0.71
+        ],
+        "step_m": 0.01,
+        "translation_actions": 125,
+        "rotation_actions": 2
+      }
+    },
+    {
+      "episode": "train:2",
+      "baseline": {
+        "episode": "train:2",
+        "directory": "train-002",
+        "actions": 67,
+        "live_success": true,
+        "recorded_success": true,
+        "mean_tcp_error_mm": 0.05253559518003621,
+        "max_tcp_error_mm": 0.21524353109984842,
+        "max_rotation_error_deg": 0.07494697792439407,
+        "mean_delta_error_mm": 0.026814829224061875,
+        "max_delta_error_mm": 0.1882185226463657,
+        "max_gripper_error_mm": 3.816520994304115,
+        "max_image_mae": 0.2931772867838542,
+        "video_frames": 125,
+        "wall_seconds": 63.06180102005601,
+        "critical_actions": [
+          {
+            "action": "GRASP",
+            "frame": 30,
+            "tcp_error_mm": 0.07674013169983807,
+            "gripper_error_mm": 0.13664153702605542
+          },
+          {
+            "action": "RELEASE",
+            "frame": 65,
+            "tcp_error_mm": 0.005972659392236914,
+            "gripper_error_mm": 0.0025605677936996196
+          }
+        ]
+      },
+      "one_cm": {
+        "episode": "train:2",
+        "directory": "train-002",
+        "actions": 129,
+        "live_success": true,
+        "recorded_success": true,
+        "source_success": true,
+        "mean_tcp_error_mm": 0.03471716860596552,
+        "max_tcp_error_mm": 0.1865572469509732,
+        "max_rotation_error_deg": 0.045470231819576525,
+        "mean_delta_error_mm": 0.010846941379986735,
+        "max_delta_error_mm": 0.18765047665168694,
+        "max_gripper_error_mm": 3.8178539837282752,
+        "max_image_mae": 0.3099721272786458,
+        "video_frames": 130,
+        "wall_seconds": 69.89984343620017,
+        "critical_actions": [
+          {
+            "action": "GRASP",
+            "frame": 57,
+            "tcp_error_mm": 0.1865572469509732,
+            "gripper_error_mm": 0.040531397773074795
+          },
+          {
+            "action": "RELEASE",
+            "frame": 124,
+            "tcp_error_mm": 0.0002496796949791303,
+            "gripper_error_mm": 0.0025566839077506565
+          }
+        ]
+      },
+      "conversion": {
+        "episode": "train:2",
+        "source_success": true,
+        "reason": "",
+        "actions": 129,
+        "mode": "simplified",
+        "baseline_mode": "simplified",
+        "anchor_shift_cm": [
+          -0.11,
+          -0.35,
+          0.23
+        ],
+        "baseline_anchor_shift_cm": [
+          0.89,
+          0.65,
+          -0.77
+        ],
+        "step_m": 0.01,
+        "translation_actions": 125,
+        "rotation_actions": 2
+      }
+    },
+    {
+      "episode": "train:3",
+      "baseline": {
+        "episode": "train:3",
+        "directory": "train-003",
+        "actions": 64,
+        "live_success": true,
+        "recorded_success": true,
+        "mean_tcp_error_mm": 0.058299543345888535,
+        "max_tcp_error_mm": 0.24615369647604576,
+        "max_rotation_error_deg": 0.07577767600937177,
+        "mean_delta_error_mm": 0.03424367480053204,
+        "max_delta_error_mm": 0.23801206970806363,
+        "max_gripper_error_mm": 0.7172282607626618,
+        "max_image_mae": 0.2945607503255208,
+        "video_frames": 133,
+        "wall_seconds": 66.33074547816068,
+        "critical_actions": [
+          {
+            "action": "GRASP",
+            "frame": 30,
+            "tcp_error_mm": 0.23107920650666008,
+            "gripper_error_mm": 0.021025514781988774
+          },
+          {
+            "action": "RELEASE",
+            "frame": 62,
+            "tcp_error_mm": 0.003088831152657334,
+            "gripper_error_mm": 0.0025613452153960825
+          }
+        ]
+      },
+      "one_cm": {
+        "episode": "train:3",
+        "directory": "train-003",
+        "actions": 122,
+        "live_success": true,
+        "recorded_success": true,
+        "source_success": true,
+        "mean_tcp_error_mm": 0.03363675779992416,
+        "max_tcp_error_mm": 0.15920195290434813,
+        "max_rotation_error_deg": 0.028780822929008527,
+        "mean_delta_error_mm": 0.009229768758988413,
+        "max_delta_error_mm": 0.1373399149505491,
+        "max_gripper_error_mm": 0.7160144161316162,
+        "max_image_mae": 0.272613525390625,
+        "video_frames": 133,
+        "wall_seconds": 70.56897275522351,
+        "critical_actions": [
+          {
+            "action": "GRASP",
+            "frame": 57,
+            "tcp_error_mm": 0.0029843486830668335,
+            "gripper_error_mm": 0.0007836577593442473
+          },
+          {
+            "action": "RELEASE",
+            "frame": 117,
+            "tcp_error_mm": 0.0006316877423975511,
+            "gripper_error_mm": 0.0025577348456429227
+          }
+        ]
+      },
+      "conversion": {
+        "episode": "train:3",
+        "source_success": true,
+        "reason": "",
+        "actions": 122,
+        "mode": "simplified",
+        "baseline_mode": "simplified",
+        "anchor_shift_cm": [
+          0.21,
+          0.13,
+          0.36
+        ],
+        "baseline_anchor_shift_cm": [
+          -0.79,
+          -0.87,
+          -0.64
+        ],
+        "step_m": 0.01,
+        "translation_actions": 118,
+        "rotation_actions": 2
+      }
+    },
+    {
+      "episode": "train:4",
+      "baseline": {
+        "episode": "train:4",
+        "directory": "train-004",
+        "actions": 64,
+        "live_success": true,
+        "recorded_success": true,
+        "mean_tcp_error_mm": 0.05084110276007887,
+        "max_tcp_error_mm": 0.21024958399262142,
+        "max_rotation_error_deg": 0.03137674939876242,
+        "mean_delta_error_mm": 0.026120205243128025,
+        "max_delta_error_mm": 0.18328184176981216,
+        "max_gripper_error_mm": 0.7215320647665224,
+        "max_image_mae": 0.3671722412109375,
+        "video_frames": 127,
+        "wall_seconds": 64.15359153598547,
+        "critical_actions": [
+          {
+            "action": "GRASP",
+            "frame": 27,
+            "tcp_error_mm": 0.002219092699894874,
+            "gripper_error_mm": 0.0003340529670797787
+          },
+          {
+            "action": "RELEASE",
+            "frame": 62,
+            "tcp_error_mm": 0.0015819850181633842,
+            "gripper_error_mm": 0.0025603604653923195
+          }
+        ]
+      },
+      "one_cm": {
+        "episode": "train:4",
+        "directory": "train-004",
+        "actions": 124,
+        "live_success": true,
+        "recorded_success": true,
+        "source_success": true,
+        "mean_tcp_error_mm": 0.03436961125006757,
+        "max_tcp_error_mm": 0.13938412041522222,
+        "max_rotation_error_deg": 0.0256728728824533,
+        "mean_delta_error_mm": 0.009486987012003123,
+        "max_delta_error_mm": 0.11824190393504258,
+        "max_gripper_error_mm": 0.7215320647665224,
+        "max_image_mae": 0.3078562418619792,
+        "video_frames": 127,
+        "wall_seconds": 68.29827410401776,
+        "critical_actions": [
+          {
+            "action": "GRASP",
+            "frame": 51,
+            "tcp_error_mm": 0.01122673991305382,
+            "gripper_error_mm": 0.0038786714838673353
+          },
+          {
+            "action": "RELEASE",
+            "frame": 119,
+            "tcp_error_mm": 0.0008606201031190538,
+            "gripper_error_mm": 0.0025633026248528257
+          }
+        ]
+      },
+      "conversion": {
+        "episode": "train:4",
+        "source_success": true,
+        "reason": "",
+        "actions": 124,
+        "mode": "simplified",
+        "baseline_mode": "simplified",
+        "anchor_shift_cm": [
+          0.26,
+          -0.34,
+          -0.11
+        ],
+        "baseline_anchor_shift_cm": [
+          0.26,
+          -0.34,
+          -0.11
+        ],
+        "step_m": 0.01,
+        "translation_actions": 121,
+        "rotation_actions": 1
+      }
+    },
+    {
+      "episode": "train:5",
+      "baseline": {
+        "episode": "train:5",
+        "directory": "train-005",
+        "actions": 69,
+        "live_success": true,
+        "recorded_success": true,
+        "mean_tcp_error_mm": 0.04907188687700322,
+        "max_tcp_error_mm": 0.21576530048806492,
+        "max_rotation_error_deg": 0.0626134342648109,
+        "mean_delta_error_mm": 0.02281851318426949,
+        "max_delta_error_mm": 0.1893697061192975,
+        "max_gripper_error_mm": 3.739972323200252,
+        "max_image_mae": 0.317108154296875,
+        "video_frames": 156,
+        "wall_seconds": 74.73950878484175,
+        "critical_actions": [
+          {
+            "action": "GRASP",
+            "frame": 30,
+            "tcp_error_mm": 0.018889582936269536,
+            "gripper_error_mm": 0.008564411146522177
+          },
+          {
+            "action": "RELEASE",
+            "frame": 67,
+            "tcp_error_mm": 0.001976575517115107,
+            "gripper_error_mm": 0.0025615368119680237
+          }
+        ]
+      },
+      "one_cm": {
+        "episode": "train:5",
+        "directory": "train-005",
+        "actions": 131,
+        "live_success": true,
+        "recorded_success": true,
+        "source_success": true,
+        "mean_tcp_error_mm": 0.039624342472029485,
+        "max_tcp_error_mm": 0.5513247486869645,
+        "max_rotation_error_deg": 0.08399109175139664,
+        "mean_delta_error_mm": 0.020167279837418076,
+        "max_delta_error_mm": 0.6652734854245826,
+        "max_gripper_error_mm": 3.7468910755596996,
+        "max_image_mae": 0.2844441731770833,
+        "video_frames": 156,
+        "wall_seconds": 79.98443215200678,
+        "critical_actions": [
+          {
+            "action": "GRASP",
+            "frame": 57,
+            "tcp_error_mm": 0.049225436261799364,
+            "gripper_error_mm": 0.0780745011099565
+          },
+          {
+            "action": "RELEASE",
+            "frame": 126,
+            "tcp_error_mm": 0.0012968705464867292,
+            "gripper_error_mm": 0.00256160503182834
+          }
+        ]
+      },
+      "conversion": {
+        "episode": "train:5",
+        "source_success": true,
+        "reason": "",
+        "actions": 131,
+        "mode": "simplified",
+        "baseline_mode": "simplified",
+        "anchor_shift_cm": [
+          -0.26,
+          0.44,
+          -0.19
+        ],
+        "baseline_anchor_shift_cm": [
+          -0.26,
+          -0.56,
+          0.81
+        ],
+        "step_m": 0.01,
+        "translation_actions": 128,
+        "rotation_actions": 1
+      }
+    },
+    {
+      "episode": "validation:1",
+      "baseline": {
+        "episode": "validation:1",
+        "directory": "validation-001",
+        "actions": 99,
+        "live_success": false,
+        "recorded_success": true,
+        "mean_tcp_error_mm": 2.0827805390215306,
+        "max_tcp_error_mm": 12.833300571261244,
+        "max_rotation_error_deg": 0.3759371183810701,
+        "mean_delta_error_mm": 0.31193731731962804,
+        "max_delta_error_mm": 2.727026516170412,
+        "max_gripper_error_mm": 5.992027184076279,
+        "max_image_mae": 0.315826416015625,
+        "video_frames": 187,
+        "wall_seconds": 94.0576943429187,
+        "critical_actions": [
+          {
+            "action": "GRASP",
+            "frame": 36,
+            "tcp_error_mm": 0.11039156482035868,
+            "gripper_error_mm": 0.37939542759113376
+          },
+          {
+            "action": "RELEASE",
+            "frame": 79,
+            "tcp_error_mm": 4.156769874276134,
+            "gripper_error_mm": 0.0025617858594312315
+          }
+        ]
+      },
+      "one_cm": {
+        "episode": "validation:1",
+        "directory": "validation-001",
+        "actions": 175,
+        "live_success": false,
+        "recorded_success": false,
+        "source_success": false,
+        "mean_tcp_error_mm": 0.07285178094925475,
+        "max_tcp_error_mm": 3.3186368175296783,
+        "max_rotation_error_deg": 0.34746415594872965,
+        "mean_delta_error_mm": 0.07394622908552977,
+        "max_delta_error_mm": 3.2785615203257805,
+        "max_gripper_error_mm": 9.854450464388876,
+        "max_image_mae": 0.3130137125651042,
+        "video_frames": 187,
+        "wall_seconds": 101.15272434381768,
+        "critical_actions": [
+          {
+            "action": "GRASP",
+            "frame": 67,
+            "tcp_error_mm": 0.3655916726860956,
+            "gripper_error_mm": 0.03732338019953041
+          },
+          {
+            "action": "RELEASE",
+            "frame": 142,
+            "tcp_error_mm": 0.14230752771926825,
+            "gripper_error_mm": 0.002556787031982033
+          }
+        ]
+      },
+      "conversion": {
+        "episode": "validation:1",
+        "source_success": false,
+        "reason": "predicate_false",
+        "actions": 175,
+        "mode": "full",
+        "baseline_mode": "full",
+        "anchor_shift_cm": [
+          -0.37,
+          0.17,
+          -0.09
+        ],
+        "baseline_anchor_shift_cm": [
+          -0.37,
+          0.17,
+          0.91
+        ],
+        "step_m": 0.01,
+        "translation_actions": 168,
+        "rotation_actions": 5
+      }
+    },
+    {
+      "episode": "validation:8",
+      "baseline": {
+        "episode": "validation:8",
+        "directory": "validation-008",
+        "actions": 76,
+        "live_success": true,
+        "recorded_success": true,
+        "mean_tcp_error_mm": 0.04881642610481934,
+        "max_tcp_error_mm": 0.2087868986588792,
+        "max_rotation_error_deg": 0.12336438141344466,
+        "mean_delta_error_mm": 0.027869903311394908,
+        "max_delta_error_mm": 0.18987280365839398,
+        "max_gripper_error_mm": 2.5099401602265288,
+        "max_image_mae": 0.2871653238932292,
+        "video_frames": 176,
+        "wall_seconds": 83.89730138517916,
+        "critical_actions": [
+          {
+            "action": "GRASP",
+            "frame": 32,
+            "tcp_error_mm": 0.11352172541440034,
+            "gripper_error_mm": 0.018063132091100664
+          },
+          {
+            "action": "RELEASE",
+            "frame": 33,
+            "tcp_error_mm": 0.1792257152099775,
+            "gripper_error_mm": 0.002547329251284536
+          },
+          {
+            "action": "GRASP",
+            "frame": 40,
+            "tcp_error_mm": 0.052314852332442374,
+            "gripper_error_mm": 0.0022202393922463037
+          },
+          {
+            "action": "RELEASE",
+            "frame": 74,
+            "tcp_error_mm": 0.0008158384349401987,
+            "gripper_error_mm": 0.0025603955689929014
+          }
+        ]
+      },
+      "one_cm": {
+        "episode": "validation:8",
+        "directory": "validation-008",
+        "actions": 144,
+        "live_success": true,
+        "recorded_success": true,
+        "source_success": true,
+        "mean_tcp_error_mm": 0.031860135362282965,
+        "max_tcp_error_mm": 0.13644064266158534,
+        "max_rotation_error_deg": 0.04796515964480995,
+        "mean_delta_error_mm": 0.009234403937179902,
+        "max_delta_error_mm": 0.11627321374481657,
+        "max_gripper_error_mm": 2.520869358338576,
+        "max_image_mae": 0.2769521077473958,
+        "video_frames": 176,
+        "wall_seconds": 90.73920030286536,
+        "critical_actions": [
+          {
+            "action": "GRASP",
+            "frame": 59,
+            "tcp_error_mm": 0.010909754516202044,
+            "gripper_error_mm": 0.015256155491562284
+          },
+          {
+            "action": "RELEASE",
+            "frame": 60,
+            "tcp_error_mm": 0.01245454425942297,
+            "gripper_error_mm": 0.0025491711995451194
+          },
+          {
+            "action": "GRASP",
+            "frame": 73,
+            "tcp_error_mm": 0.017119909546723218,
+            "gripper_error_mm": 0.0015453798944409236
+          },
+          {
+            "action": "RELEASE",
+            "frame": 139,
+            "tcp_error_mm": 0.0010661763814971575,
+            "gripper_error_mm": 0.002561851022528372
+          }
+        ]
+      },
+      "conversion": {
+        "episode": "validation:8",
+        "source_success": true,
+        "reason": "",
+        "actions": 144,
+        "mode": "simplified",
+        "baseline_mode": "simplified",
+        "anchor_shift_cm": [
+          0.09,
+          0.22,
+          -0.29
+        ],
+        "baseline_anchor_shift_cm": [
+          -0.91,
+          -0.78,
+          0.71
+        ],
+        "step_m": 0.01,
+        "translation_actions": 138,
+        "rotation_actions": 2
+      }
+    },
+    {
+      "episode": "validation:16",
+      "baseline": {
+        "episode": "validation:16",
+        "directory": "validation-016",
+        "actions": 64,
+        "live_success": true,
+        "recorded_success": true,
+        "mean_tcp_error_mm": 0.048037902948110424,
+        "max_tcp_error_mm": 0.22720546250626228,
+        "max_rotation_error_deg": 0.059972576777964616,
+        "mean_delta_error_mm": 0.027684990320947987,
+        "max_delta_error_mm": 0.1982311354896007,
+        "max_gripper_error_mm": 3.6818335423350197,
+        "max_image_mae": 0.230743408203125,
+        "video_frames": 119,
+        "wall_seconds": 60.81086407741532,
+        "critical_actions": [
+          {
+            "action": "GRASP",
+            "frame": 30,
+            "tcp_error_mm": 0.013974864939378887,
+            "gripper_error_mm": 0.008083302171432716
+          },
+          {
+            "action": "RELEASE",
+            "frame": 62,
+            "tcp_error_mm": 0.0030061880716938435,
+            "gripper_error_mm": 0.002561571435230614
+          }
+        ]
+      },
+      "one_cm": {
+        "episode": "validation:16",
+        "directory": "validation-016",
+        "actions": 122,
+        "live_success": true,
+        "recorded_success": true,
+        "source_success": true,
+        "mean_tcp_error_mm": 0.03176613088407168,
+        "max_tcp_error_mm": 0.14958842061331468,
+        "max_rotation_error_deg": 0.03410624308258864,
+        "mean_delta_error_mm": 0.010635436079082189,
+        "max_delta_error_mm": 0.12913944519583506,
+        "max_gripper_error_mm": 3.8110444250025606,
+        "max_image_mae": 0.22751871744791666,
+        "video_frames": 123,
+        "wall_seconds": 67.59347354108468,
+        "critical_actions": [
+          {
+            "action": "GRASP",
+            "frame": 55,
+            "tcp_error_mm": 0.01050293779893921,
+            "gripper_error_mm": 0.011460458328844958
+          },
+          {
+            "action": "RELEASE",
+            "frame": 117,
+            "tcp_error_mm": 0.0008432750722194811,
+            "gripper_error_mm": 0.002559670850138529
+          }
+        ]
+      },
+      "conversion": {
+        "episode": "validation:16",
+        "source_success": true,
+        "reason": "",
+        "actions": 122,
+        "mode": "simplified",
+        "baseline_mode": "simplified",
+        "anchor_shift_cm": [
+          0.39,
+          -0.39,
+          0.16
+        ],
+        "baseline_anchor_shift_cm": [
+          -0.61,
+          -0.39,
+          0.16
+        ],
+        "step_m": 0.01,
+        "translation_actions": 118,
+        "rotation_actions": 2
+      }
+    },
+    {
+      "episode": "validation:17",
+      "baseline": {
+        "episode": "validation:17",
+        "directory": "validation-017",
+        "actions": 63,
+        "live_success": true,
+        "recorded_success": true,
+        "mean_tcp_error_mm": 0.06134458998725383,
+        "max_tcp_error_mm": 0.5726449462934231,
+        "max_rotation_error_deg": 0.11532602754485376,
+        "mean_delta_error_mm": 0.037331520481826315,
+        "max_delta_error_mm": 0.509983919607188,
+        "max_gripper_error_mm": 6.11386193398418,
+        "max_image_mae": 0.22095743815104166,
+        "video_frames": 144,
+        "wall_seconds": 69.16259753378108,
+        "critical_actions": [
+          {
+            "action": "GRASP",
+            "frame": 29,
+            "tcp_error_mm": 0.006075473680207188,
+            "gripper_error_mm": 0.0015163959054334541
+          },
+          {
+            "action": "RELEASE",
+            "frame": 61,
+            "tcp_error_mm": 0.05059333101956151,
+            "gripper_error_mm": 0.002560815877045153
+          }
+        ]
+      },
+      "one_cm": {
+        "episode": "validation:17",
+        "directory": "validation-017",
+        "actions": 125,
+        "live_success": true,
+        "recorded_success": true,
+        "source_success": true,
+        "mean_tcp_error_mm": 0.03789032721741678,
+        "max_tcp_error_mm": 0.29643855242926787,
+        "max_rotation_error_deg": 0.060990554276602583,
+        "mean_delta_error_mm": 0.015313933707380692,
+        "max_delta_error_mm": 0.33037985133442904,
+        "max_gripper_error_mm": 9.979418478487295,
+        "max_image_mae": 0.18665568033854166,
+        "video_frames": 144,
+        "wall_seconds": 75.55306513933465,
+        "critical_actions": [
+          {
+            "action": "GRASP",
+            "frame": 56,
+            "tcp_error_mm": 0.011345017929231097,
+            "gripper_error_mm": 0.000628738308264265
+          },
+          {
+            "action": "RELEASE",
+            "frame": 120,
+            "tcp_error_mm": 0.0014515867087483345,
+            "gripper_error_mm": 0.0025564751118811735
+          }
+        ]
+      },
+      "conversion": {
+        "episode": "validation:17",
+        "source_success": true,
+        "reason": "",
+        "actions": 125,
+        "mode": "simplified",
+        "baseline_mode": "simplified",
+        "anchor_shift_cm": [
+          0.17,
+          0.22,
+          0.44
+        ],
+        "baseline_anchor_shift_cm": [
+          -0.83,
+          0.22,
+          -0.56
+        ],
+        "step_m": 0.01,
+        "translation_actions": 123,
+        "rotation_actions": 0
+      }
+    },
+    {
+      "episode": "validation:29",
+      "baseline": {
+        "episode": "validation:29",
+        "directory": "validation-029",
+        "actions": 68,
+        "live_success": true,
+        "recorded_success": true,
+        "mean_tcp_error_mm": 0.049747849968065576,
+        "max_tcp_error_mm": 0.24915903946263063,
+        "max_rotation_error_deg": 0.12381761309404815,
+        "mean_delta_error_mm": 0.02951062209575422,
+        "max_delta_error_mm": 0.2680631338147958,
+        "max_gripper_error_mm": 3.705161878093291,
+        "max_image_mae": 0.09948221842447917,
+        "video_frames": 178,
+        "wall_seconds": 84.23694694694132,
+        "critical_actions": [
+          {
+            "action": "GRASP",
+            "frame": 31,
+            "tcp_error_mm": 0.018732972279212938,
+            "gripper_error_mm": 0.00833524602511515
+          },
+          {
+            "action": "RELEASE",
+            "frame": 66,
+            "tcp_error_mm": 0.008827607871487323,
+            "gripper_error_mm": 0.0025599282560406778
+          }
+        ]
+      },
+      "one_cm": {
+        "episode": "validation:29",
+        "directory": "validation-029",
+        "actions": 132,
+        "live_success": true,
+        "recorded_success": true,
+        "source_success": true,
+        "mean_tcp_error_mm": 0.042292936535497365,
+        "max_tcp_error_mm": 0.38880168820517813,
+        "max_rotation_error_deg": 0.11314523972754127,
+        "mean_delta_error_mm": 0.028910236150942677,
+        "max_delta_error_mm": 0.45385577054953496,
+        "max_gripper_error_mm": 3.705161878093291,
+        "max_image_mae": 0.154388427734375,
+        "video_frames": 178,
+        "wall_seconds": 90.75361489225179,
+        "critical_actions": [
+          {
+            "action": "GRASP",
+            "frame": 58,
+            "tcp_error_mm": 0.02782736157450248,
+            "gripper_error_mm": 0.026736070614104268
+          },
+          {
+            "action": "RELEASE",
+            "frame": 127,
+            "tcp_error_mm": 0.036756121560905713,
+            "gripper_error_mm": 0.0025654263157010027
+          }
+        ]
+      },
+      "conversion": {
+        "episode": "validation:29",
+        "source_success": true,
+        "reason": "",
+        "actions": 132,
+        "mode": "simplified",
+        "baseline_mode": "simplified",
+        "anchor_shift_cm": [
+          -0.17,
+          0.08,
+          0.02
+        ],
+        "baseline_anchor_shift_cm": [
+          -0.17,
+          0.08,
+          0.02
+        ],
+        "step_m": 0.01,
+        "translation_actions": 127,
+        "rotation_actions": 3
+      }
+    }
+  ]
+}

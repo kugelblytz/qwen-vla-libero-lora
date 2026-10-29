@@ -1,0 +1,454 @@
+{
+  "status": "passed",
+  "dataset": "/home/jovyan/rise-project/.milestone01/libero-object-five-pass-config-check",
+  "cases": {
+    "libero-object-compute-profile": {
+      "status": "passed",
+      "error": null,
+      "wall_s": 68.9325427878648,
+      "warmup_updates": 1,
+      "measured_updates": 2,
+      "mean_update_s": 16.86224868427962,
+      "median_update_s": 16.86224868427962,
+      "stdev_update_s": 0.0459340925367316,
+      "examples_per_second": 1.8977302849194153,
+      "peak_allocated_mib": 17092.318359375,
+      "peak_reserved_mib": 17844.0,
+      "device_total_mib": 20096.0,
+      "microbatch": 16,
+      "accumulation": 2,
+      "workers": 2,
+      "step_times": [
+        {
+          "step": 1,
+          "seconds": 22.946296444162726
+        },
+        {
+          "step": 2,
+          "seconds": 16.894728992599994
+        },
+        {
+          "step": 3,
+          "seconds": 16.829768375959247
+        }
+      ],
+      "stage_profile": [
+        {
+          "step": 1,
+          "stages": {
+            "vision": {
+              "cuda_s": 0.6126577301025391,
+              "calls": 2,
+              "output_requires_grad": false
+            },
+            "language_forward": {
+              "cuda_s": 4.111481689453125,
+              "calls": 2,
+              "output_requires_grad": null
+            }
+          }
+        },
+        {
+          "step": 2,
+          "stages": {
+            "vision": {
+              "cuda_s": 0.26018716430664063,
+              "calls": 2,
+              "output_requires_grad": false
+            },
+            "language_forward": {
+              "cuda_s": 3.5474827880859374,
+              "calls": 2,
+              "output_requires_grad": null
+            }
+          }
+        },
+        {
+          "step": 3,
+          "stages": {
+            "vision": {
+              "cuda_s": 0.2596129302978516,
+              "calls": 2,
+              "output_requires_grad": false
+            },
+            "language_forward": {
+              "cuda_s": 3.5240001220703125,
+              "calls": 2,
+              "output_requires_grad": null
+            }
+          }
+        }
+      ]
+    },
+    "libero-object-sparse-loss-check": {
+      "status": "passed",
+      "error": null,
+      "wall_s": 69.240098122973,
+      "warmup_updates": 1,
+      "measured_updates": 2,
+      "mean_update_s": 17.044556110864505,
+      "median_update_s": 17.044556110864505,
+      "stdev_update_s": 0.19863201833676264,
+      "examples_per_second": 1.8774322893397397,
+      "peak_allocated_mib": 17092.740234375,
+      "peak_reserved_mib": 17614.0,
+      "device_total_mib": 20096.0,
+      "microbatch": 16,
+      "accumulation": 2,
+      "workers": 2,
+      "step_times": [
+        {
+          "step": 1,
+          "seconds": 23.300526950042695
+        },
+        {
+          "step": 2,
+          "seconds": 16.90410206373781
+        },
+        {
+          "step": 3,
+          "seconds": 17.1850101579912
+        }
+      ],
+      "sparse_loss": true
+    },
+    "libero-object-fla-check": {
+      "status": "failed",
+      "error": "RuntimeError('Triton >= 3.4.0 and < 3.7.1 on Hopper GPUs produces incorrect results for gated chunk_bwd_dqkwg (see #640). Please upgrade Triton to >= 3.7.1 or install tilelang: `pip install tilelang`')",
+      "wall_s": 64.65839469060302,
+      "warmup_updates": 2,
+      "measured_updates": 0,
+      "mean_update_s": null,
+      "median_update_s": null,
+      "stdev_update_s": null,
+      "examples_per_second": null,
+      "peak_allocated_mib": 12517.6591796875,
+      "peak_reserved_mib": 13866.0,
+      "device_total_mib": 20096.0,
+      "microbatch": 16,
+      "accumulation": 2,
+      "workers": 2,
+      "step_times": [],
+      "stage_profile": [],
+      "sparse_loss": false
+    },
+    "libero-object-fla-triton371-check": {
+      "status": "passed",
+      "error": null,
+      "wall_s": 143.58559139911085,
+      "warmup_updates": 2,
+      "measured_updates": 3,
+      "mean_update_s": 7.309861083359768,
+      "median_update_s": 7.362555216066539,
+      "stdev_update_s": 0.11864844677197392,
+      "examples_per_second": 4.377648170749111,
+      "peak_allocated_mib": 14059.4580078125,
+      "peak_reserved_mib": 15320.0,
+      "device_total_mib": 20096.0,
+      "microbatch": 16,
+      "accumulation": 2,
+      "workers": 2,
+      "step_times": [
+        {
+          "step": 1,
+          "seconds": 100.4557044566609
+        },
+        {
+          "step": 2,
+          "seconds": 7.28039355808869
+        },
+        {
+          "step": 3,
+          "seconds": 7.362555216066539
+        },
+        {
+          "step": 4,
+          "seconds": 7.393035477027297
+        },
+        {
+          "step": 5,
+          "seconds": 7.173992556985468
+        }
+      ],
+      "stage_profile": [
+        {
+          "step": 1,
+          "stages": {
+            "vision": {
+              "cuda_s": 0.5860404052734375,
+              "calls": 2,
+              "output_requires_grad": false
+            },
+            "language_forward": {
+              "cuda_s": 31.160491943359375,
+              "calls": 2,
+              "output_requires_grad": null
+            }
+          }
+        },
+        {
+          "step": 2,
+          "stages": {
+            "vision": {
+              "cuda_s": 0.2772264556884766,
+              "calls": 2,
+              "output_requires_grad": false
+            },
+            "language_forward": {
+              "cuda_s": 1.9980113525390624,
+              "calls": 2,
+              "output_requires_grad": null
+            }
+          }
+        },
+        {
+          "step": 3,
+          "stages": {
+            "vision": {
+              "cuda_s": 0.27754226684570316,
+              "calls": 2,
+              "output_requires_grad": false
+            },
+            "language_forward": {
+              "cuda_s": 1.9667357788085937,
+              "calls": 2,
+              "output_requires_grad": null
+            }
+          }
+        },
+        {
+          "step": 4,
+          "stages": {
+            "vision": {
+              "cuda_s": 0.26546208190917964,
+              "calls": 2,
+              "output_requires_grad": false
+            },
+            "language_forward": {
+              "cuda_s": 1.9974734497070312,
+              "calls": 2,
+              "output_requires_grad": null
+            }
+          }
+        },
+        {
+          "step": 5,
+          "stages": {
+            "vision": {
+              "cuda_s": 0.2675708465576172,
+              "calls": 2,
+              "output_requires_grad": false
+            },
+            "language_forward": {
+              "cuda_s": 1.9661738891601563,
+              "calls": 2,
+              "output_requires_grad": null
+            }
+          }
+        }
+      ],
+      "sparse_loss": false
+    },
+    "libero-object-fla-b32-check": {
+      "status": "passed",
+      "error": null,
+      "wall_s": 76.24962097918615,
+      "warmup_updates": 2,
+      "measured_updates": 3,
+      "mean_update_s": 6.942663083318621,
+      "median_update_s": 6.874440527986735,
+      "stdev_update_s": 0.12121737359090853,
+      "examples_per_second": 4.609182329024077,
+      "peak_allocated_mib": 16854.6962890625,
+      "peak_reserved_mib": 19344.0,
+      "device_total_mib": 20096.0,
+      "microbatch": 32,
+      "accumulation": 1,
+      "workers": 2,
+      "step_times": [
+        {
+          "step": 1,
+          "seconds": 34.89153665071353
+        },
+        {
+          "step": 2,
+          "seconds": 7.190384983085096
+        },
+        {
+          "step": 3,
+          "seconds": 6.874440527986735
+        },
+        {
+          "step": 4,
+          "seconds": 7.08261817926541
+        },
+        {
+          "step": 5,
+          "seconds": 6.870930542703718
+        }
+      ],
+      "sparse_loss": false
+    },
+    "libero-object-full-fast-b16": {
+      "status": "passed",
+      "error": null,
+      "wall_s": 88.5690655047074,
+      "warmup_updates": 3,
+      "measured_updates": 8,
+      "mean_update_s": 6.256712304253597,
+      "median_update_s": 6.259086731588468,
+      "stdev_update_s": 0.01788112519815272,
+      "examples_per_second": 5.1145071794726675,
+      "peak_allocated_mib": 13948.5166015625,
+      "peak_reserved_mib": 15098.0,
+      "device_total_mib": 20096.0,
+      "microbatch": 16,
+      "accumulation": 2,
+      "workers": 2,
+      "step_times": [
+        {
+          "step": 1,
+          "seconds": 12.53635571943596
+        },
+        {
+          "step": 2,
+          "seconds": 6.267470254562795
+        },
+        {
+          "step": 3,
+          "seconds": 6.220175786409527
+        },
+        {
+          "step": 4,
+          "seconds": 6.260213449597359
+        },
+        {
+          "step": 5,
+          "seconds": 6.21764417598024
+        },
+        {
+          "step": 6,
+          "seconds": 6.258554919157177
+        },
+        {
+          "step": 7,
+          "seconds": 6.282573746982962
+        },
+        {
+          "step": 8,
+          "seconds": 6.259618544019759
+        },
+        {
+          "step": 9,
+          "seconds": 6.260626627132297
+        },
+        {
+          "step": 10,
+          "seconds": 6.258467369712889
+        },
+        {
+          "step": 11,
+          "seconds": 6.255999601446092
+        }
+      ],
+      "sparse_loss": false
+    },
+    "libero-object-full-fast-b32": {
+      "status": "passed",
+      "error": null,
+      "wall_s": 85.80861867126077,
+      "warmup_updates": 3,
+      "measured_updates": 8,
+      "mean_update_s": 5.9955788788502105,
+      "median_update_s": 6.006787939462811,
+      "stdev_update_s": 0.06649928001371656,
+      "examples_per_second": 5.337266116685089,
+      "peak_allocated_mib": 16627.1962890625,
+      "peak_reserved_mib": 19104.0,
+      "device_total_mib": 20096.0,
+      "microbatch": 32,
+      "accumulation": 1,
+      "workers": 2,
+      "step_times": [
+        {
+          "step": 1,
+          "seconds": 12.128993126098067
+        },
+        {
+          "step": 2,
+          "seconds": 6.159456191118807
+        },
+        {
+          "step": 3,
+          "seconds": 5.928182205185294
+        },
+        {
+          "step": 4,
+          "seconds": 6.056410314980894
+        },
+        {
+          "step": 5,
+          "seconds": 5.928047061897814
+        },
+        {
+          "step": 6,
+          "seconds": 6.056658031884581
+        },
+        {
+          "step": 7,
+          "seconds": 5.925475048832595
+        },
+        {
+          "step": 8,
+          "seconds": 6.056857479270548
+        },
+        {
+          "step": 9,
+          "seconds": 5.925703716930002
+        },
+        {
+          "step": 10,
+          "seconds": 6.058313813060522
+        },
+        {
+          "step": 11,
+          "seconds": 5.957165563944727
+        }
+      ],
+      "sparse_loss": false
+    }
+  },
+  "selected": {
+    "microbatch": 32,
+    "accumulation": 1,
+    "workers": 2,
+    "mean_update_s": 5.9955788788502105
+  },
+  "lower_memory_option": {
+    "microbatch": 16,
+    "accumulation": 2,
+    "mean_update_s": 6.256712304253597
+  },
+  "speedup_vs_previous": 2.825243409989889,
+  "vision_share_of_previous_update": 0.01541313096304566,
+  "fast_launcher_probe_updates": 3,
+  "fast_launcher_resume": {
+    "returncode": 0,
+    "wall_s": 34.475510315969586,
+    "updates": 1,
+    "resumed": true,
+    "estimated_full_compute_s": null,
+    "caveat": "Startup and tokenization included; inspect timed optimizer steps for a better estimate. No production weights selected."
+  },
+  "fast_resume_final_step": 3,
+  "kernel_versions": {
+    "torch": "2.11.0+cu129",
+    "triton": "3.7.1",
+    "fla": "0.5.2",
+    "causal_conv1d": "1.7.0"
+  },
+  "full_training_started": false,
+  "data_thinning_enabled": false,
+  "sparse_loss_enabled": false,
+  "caveat": "Short frozen-pilot measurements; full-data throughput/memory and trained-policy performance remain unverified."
+}

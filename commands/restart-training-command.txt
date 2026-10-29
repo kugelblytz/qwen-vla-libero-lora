@@ -1,0 +1,26 @@
+# Restart the interrupted two-pass 1cm / 5-degree run.
+# Preparation is complete; do not run preparation again.
+# Run only while training is stopped. Preserve the old output; refuse to archive checkpoints.
+cd "$(git rev-parse --show-toplevel)"  # repository root
+python - <<'PY'
+from pathlib import Path
+from datetime import datetime, timezone
+import shutil
+run = Path(Path('.workspace/libero-object-1cm5deg-dataset.txt').read_text().strip())
+out = run / 'training-output'
+if out.exists():
+    assert not list(out.glob('checkpoint-*')), 'Checkpoints exist: use explicit resume instead.'
+    target = run / ('training-output-interrupted-' + datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S%f'))
+    shutil.move(str(out), str(target))
+    print('Preserved interrupted output:', target)
+PY
+
+# Validate first. Start the next block only if this succeeds.
+bash scripts/pipeline.sh train-fast --passes 2 --microbatch 32 --dry-run
+
+nohup bash scripts/pipeline.sh train-fast --passes 2 --microbatch 32 > .workspace/libero-object-fast-training.log 2>&1 < /dev/null &
+echo $! > .workspace/libero-object-training.pid
+tail -f .workspace/libero-object-fast-training.log
+
+# Status from another terminal:
+# bash scripts/pipeline.sh status

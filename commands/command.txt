@@ -1,0 +1,26 @@
+# Run each phase separately from the project root. Full preparation/training are NOT started automatically.
+cd "$(git rev-parse --show-toplevel)"  # repository root
+mkdir -p .workspace
+
+# 1. Prepare all ten tasks, up to 50 source episodes each (can take hours).
+nohup bash scripts/pipeline.sh prepare > .workspace/libero-object-preparation.log 2>&1 < /dev/null &
+echo $! > .workspace/libero-object-preparation.pid
+tail -f .workspace/libero-object-preparation.log
+
+# 2. After preparation succeeds, check the fast training configuration.
+bash scripts/pipeline.sh train-fast --microbatch 32 --dry-run
+
+# 3. Launch the initial FIVE nominal passes. No separate throughput benchmark.
+# Optimized kernels + batch 32 / accumulation 1 / two workers were fastest.
+# Use fast-training-command.txt for the shorter TWO-pass initial option.
+# Use --microbatch 16 for more memory headroom; effective batch stays 32.
+nohup bash scripts/pipeline.sh train-fast --passes 5 --microbatch 32 > .workspace/libero-object-training.log 2>&1 < /dev/null &
+echo $! > .workspace/libero-object-training.pid
+tail -f .workspace/libero-object-training.log
+
+# 4. In another terminal, inspect timings from actual training (no GPU work).
+bash scripts/pipeline.sh status
+
+# Checkpoints are saved every 500 updates. Validate each pass; evaluate checkpoints near passes 1, 3 and 5.
+# Resume/extension commands and checkpoint evaluation instructions: RUNNING.md.
+# Checkpoint selection and evaluation require explicit run/adapter paths; see RUNNING.md.

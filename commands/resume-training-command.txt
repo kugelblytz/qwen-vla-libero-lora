@@ -1,0 +1,16 @@
+# Resume checkpoint 1732. The script resolves all paths automatically.
+# Keep training-output intact; do not use restart-training-command.txt.
+cd "$(git rev-parse --show-toplevel)"  # repository root
+
+# Check configuration first; only run the next block after it succeeds.
+bash scripts/resume_training.sh --dry-run
+
+# Copy this entire single line to launch in the background:
+nohup bash scripts/resume_training.sh > .workspace/libero-object-resumed-training.log 2>&1 < /dev/null &
+echo $! > .workspace/libero-object-training.pid
+tail -f .workspace/libero-object-resumed-training.log
+
+# Checkpoints save every 500 global updates; validation remains once per pass.
+# Target: two passes TOTAL, with the first pass restored from checkpoint 1732.
+# Status from another terminal:
+# bash scripts/pipeline.sh status

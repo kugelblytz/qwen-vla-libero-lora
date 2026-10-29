@@ -1,0 +1,213 @@
+{
+  "status": "completed",
+  "episodes": [
+    {
+      "task": 0,
+      "demo": 12,
+      "target": "alphabet_soup_1",
+      "mode": "expert",
+      "reason": "supported_lift",
+      "grasp_and_lift_pass": true,
+      "initial": {
+        "target_z": 0.03833674183106929,
+        "lift_m": 0.0,
+        "finger_contact": false,
+        "width_m": 0.07996389363047854,
+        "tcp": [
+          -0.1349920927910885,
+          -0.25040587311127505,
+          0.04539768496908314
+        ]
+      },
+      "max_lift_m": 0.048642498311824656,
+      "any_finger_contact": true,
+      "predicted_grasp": true,
+      "tokens": [
+        "GRASP",
+        "MV_UP",
+        "MV_UP",
+        "MV_UP",
+        "MV_UP",
+        "MV_UP"
+      ],
+      "decisions": 6,
+      "wall_s": 1.487777539063245,
+      "criterion": "Target lifted >=3cm with both finger-pad contacts for three consecutive action boundaries.",
+      "caveat": "Held-out pre-grasp state diagnostic, not an approach test or benchmark success."
+    },
+    {
+      "task": 0,
+      "demo": 12,
+      "target": "alphabet_soup_1",
+      "mode": "model",
+      "reason": "supported_lift",
+      "grasp_and_lift_pass": true,
+      "initial": {
+        "target_z": 0.03833674183106929,
+        "lift_m": 0.0,
+        "finger_contact": false,
+        "width_m": 0.07996389363047854,
+        "tcp": [
+          -0.1349920927910885,
+          -0.25040587311127505,
+          0.04539768496908314
+        ]
+      },
+      "max_lift_m": 0.048642498311824656,
+      "any_finger_contact": true,
+      "predicted_grasp": true,
+      "tokens": [
+        "GRASP",
+        "MV_UP",
+        "MV_UP",
+        "MV_UP",
+        "MV_UP",
+        "MV_UP"
+      ],
+      "decisions": 6,
+      "wall_s": 3.4146998627111316,
+      "criterion": "Target lifted >=3cm with both finger-pad contacts for three consecutive action boundaries.",
+      "caveat": "Held-out pre-grasp state diagnostic, not an approach test or benchmark success."
+    },
+    {
+      "task": 1,
+      "demo": 24,
+      "target": "cream_cheese_1",
+      "mode": "expert",
+      "reason": "supported_lift",
+      "grasp_and_lift_pass": true,
+      "initial": {
+        "target_z": 0.008921477418608102,
+        "lift_m": 0.0,
+        "finger_contact": false,
+        "width_m": 0.07998771601795099,
+        "tcp": [
+          0.017761875817592445,
+          -0.10757361871132481,
+          0.01100903038371824
+        ]
+      },
+      "max_lift_m": 0.05544922726604162,
+      "any_finger_contact": true,
+      "predicted_grasp": true,
+      "tokens": [
+        "GRASP",
+        "MV_UP",
+        "MV_UP",
+        "MV_UP",
+        "MV_UP",
+        "MV_UP",
+        "MV_UP"
+      ],
+      "decisions": 7,
+      "wall_s": 1.6534419599920511,
+      "criterion": "Target lifted >=3cm with both finger-pad contacts for three consecutive action boundaries.",
+      "caveat": "Held-out pre-grasp state diagnostic, not an approach test or benchmark success."
+    },
+    {
+      "task": 1,
+      "demo": 24,
+      "target": "cream_cheese_1",
+      "mode": "model",
+      "reason": "supported_lift",
+      "grasp_and_lift_pass": true,
+      "initial": {
+        "target_z": 0.008921477418608102,
+        "lift_m": 0.0,
+        "finger_contact": false,
+        "width_m": 0.07998771601795099,
+        "tcp": [
+          0.017761875817592445,
+          -0.10757361871132481,
+          0.01100903038371824
+        ]
+      },
+      "max_lift_m": 0.05544922726604162,
+      "any_finger_contact": true,
+      "predicted_grasp": true,
+      "tokens": [
+        "GRASP",
+        "MV_UP",
+        "MV_UP",
+        "MV_UP",
+        "MV_UP",
+        "MV_UP",
+        "MV_UP"
+      ],
+      "decisions": 7,
+      "wall_s": 3.6178999678231776,
+      "criterion": "Target lifted >=3cm with both finger-pad contacts for three consecutive action boundaries.",
+      "caveat": "Held-out pre-grasp state diagnostic, not an approach test or benchmark success."
+    },
+    {
+      "task": 8,
+      "demo": 32,
+      "target": "chocolate_pudding_1",
+      "mode": "expert",
+      "reason": "supported_lift",
+      "grasp_and_lift_pass": true,
+      "initial": {
+        "target_z": 0.0130654774186081,
+        "lift_m": 0.0,
+        "finger_contact": false,
+        "width_m": 0.07998260514624583,
+        "tcp": [
+          -0.11201056830836602,
+          -0.24239473623943553,
+          0.011517284370483896
+        ]
+      },
+      "max_lift_m": 0.05553157917697572,
+      "any_finger_contact": true,
+      "predicted_grasp": true,
+      "tokens": [
+        "GRASP",
+        "MV_UP",
+        "MV_UP",
+        "MV_UP",
+        "MV_UP",
+        "MV_UP",
+        "MV_UP"
+      ],
+      "decisions": 7,
+      "wall_s": 1.630265159998089,
+      "criterion": "Target lifted >=3cm with both finger-pad contacts for three consecutive action boundaries.",
+      "caveat": "Held-out pre-grasp state diagnostic, not an approach test or benchmark success."
+    },
+    {
+      "task": 8,
+      "demo": 32,
+      "target": "chocolate_pudding_1",
+      "mode": "model",
+      "reason": "supported_lift",
+      "grasp_and_lift_pass": true,
+      "initial": {
+        "target_z": 0.0130654774186081,
+        "lift_m": 0.0,
+        "finger_contact": false,
+        "width_m": 0.07998260514624583,
+        "tcp": [
+          -0.11201056830836602,
+          -0.24239473623943553,
+          0.011517284370483896
+        ]
+      },
+      "max_lift_m": 0.05553157917697572,
+      "any_finger_contact": true,
+      "predicted_grasp": true,
+      "tokens": [
+        "GRASP",
+        "MV_UP",
+        "MV_UP",
+        "MV_UP",
+        "MV_UP",
+        "MV_UP",
+        "MV_UP"
+      ],
+      "decisions": 7,
+      "wall_s": 3.5239794538356364,
+      "criterion": "Target lifted >=3cm with both finger-pad contacts for three consecutive action boundaries.",
+      "caveat": "Held-out pre-grasp state diagnostic, not an approach test or benchmark success."
+    }
+  ]
+}

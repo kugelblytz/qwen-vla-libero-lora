@@ -1,0 +1,42 @@
+{
+  "run": "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-v6-state-h3-cp4-2b-20261016T121633",
+  "variant": "v6-state-h3-cp4-2b",
+  "adapter": "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-v6-state-h3-cp4-2b-20261016T121633/training-output/adapter-3500",
+  "adapter_sha256": "812f971095fd75183514be5ab3a602eb6f26f5a888bf83e704abfc31d8f00489",
+  "per_group": 8,
+  "groups": {
+    "DONE": {
+      "n": 44,
+      "accuracy": 0.614,
+      "copy_rate": 0.341
+    },
+    "GRASP": {
+      "n": 44,
+      "accuracy": 0.818,
+      "copy_rate": 0.182
+    },
+    "RELEASE": {
+      "n": 44,
+      "accuracy": 0.659,
+      "copy_rate": 0.295
+    },
+    "continue": {
+      "n": 80,
+      "accuracy": 0.887,
+      "copy_rate": null
+    },
+    "first": {
+      "n": 44,
+      "accuracy": 0.432,
+      "copy_rate": 0.0
+    },
+    "switch": {
+      "n": 80,
+      "accuracy": 0.65,
+      "copy_rate": 0.225
+    }
+  },
+  "changepoint_accuracy": 0.679,
+  "changepoint_copy_rate": 0.255,
+  "caveat": "Teacher-forced on held-out expert frames (expert history and state). Not rollout success."
+}

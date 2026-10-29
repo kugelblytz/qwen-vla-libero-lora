@@ -1,0 +1,57 @@
+{
+  "source": {
+    "paper": "Show-Harness: Just a VLM Agent Can Play Robots",
+    "arxiv_version": "2609.10522v1",
+    "url": "https://arxiv.org/html/2609.10522v1",
+    "sections": ["5.1", "7.1", "7.2"],
+    "show_harness_revision_inspected": "e9867e971c3a8c5da352e151006cac859923e85e",
+    "llamafactory_revision": "9ce6b663e9d87cd3c0cb42a1d3ff5cdfe292426d"
+  },
+  "paper_reported": {
+    "default_model": "Qwen/Qwen3.5-2B",
+    "finetuning_type": "lora",
+    "lora_rank": 64,
+    "target_modules": "all language-model linear layers",
+    "freeze_vision_encoder": true,
+    "freeze_multimodal_projector": true,
+    "train_epochs": 40,
+    "learning_rate": 0.0001,
+    "lr_scheduler_type": "cosine",
+    "warmup_ratio": 0.1,
+    "effective_batch_size": 32,
+    "compute_dtype": "bfloat16",
+    "camera_views": 2,
+    "image_resolution": [256, 256],
+    "real_training_samples_approximate": 7900,
+    "real_demonstration_episodes": 164,
+    "sim_demonstration_episodes": 230,
+    "sim_decision_steps": 13523
+  },
+  "not_specified_in_paper": [
+    "LoRA alpha and dropout",
+    "optimizer implementation, betas, epsilon and weight decay",
+    "physical microbatch size and gradient accumulation",
+    "gradient checkpointing",
+    "attention, recurrent and loss kernel implementations",
+    "maximum token length",
+    "exact package versions and model weight revisions",
+    "random seed and checkpoint-selection rule",
+    "complete per-backbone and simulation-run overrides"
+  ],
+  "repository_values_not_paper_claims": {
+    "lora_alpha": 128,
+    "lora_dropout": 0.05,
+    "cutoff_len": 2048,
+    "per_device_train_batch_size": 32,
+    "gradient_accumulation_steps": 1,
+    "disable_gradient_checkpointing": true,
+    "flash_attn": "fa2",
+    "enable_liger_kernel": true,
+    "transformers_version": "5.7.0"
+  },
+  "known_paper_repository_discrepancies": {
+    "epochs": {"paper": 40, "repository": 30},
+    "freeze_multimodal_projector": {"paper": true, "repository": false}
+  },
+  "libero_scope": "LIBERO demonstrations and v5 are a new adaptation experiment, not the paper's original data or prompt protocol. The 4B probe is a backbone variant, not the paper's default model."
+}

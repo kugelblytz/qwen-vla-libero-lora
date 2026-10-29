@@ -1,0 +1,251 @@
+[
+  {
+    "task": 0,
+    "attempt": 4,
+    "success": true,
+    "target": "alphabet_soup_1",
+    "target_finger_contact": false,
+    "contact_objects": [],
+    "final_width_m": 0.07943690120661874,
+    "target_position": [
+      -0.017913069235575518,
+      0.2644865166985232,
+      0.04806667753197048
+    ],
+    "rechecked_success": true
+  },
+  {
+    "task": 0,
+    "attempt": 6,
+    "success": true,
+    "target": "alphabet_soup_1",
+    "target_finger_contact": true,
+    "contact_objects": [
+      "alphabet_soup_1"
+    ],
+    "final_width_m": 0.0596031706791561,
+    "target_position": [
+      -0.07061843765416978,
+      0.3040427309323584,
+      0.159370729445693
+    ],
+    "rechecked_success": true
+  },
+  {
+    "task": 0,
+    "attempt": 9,
+    "success": true,
+    "target": "alphabet_soup_1",
+    "target_finger_contact": true,
+    "contact_objects": [
+      "alphabet_soup_1"
+    ],
+    "final_width_m": 0.061070634712853004,
+    "target_position": [
+      -0.04373460987635195,
+      0.28890438982180267,
+      0.15468541761880264
+    ],
+    "rechecked_success": true
+  },
+  {
+    "task": 2,
+    "attempt": 0,
+    "success": true,
+    "target": "salad_dressing_1",
+    "target_finger_contact": true,
+    "contact_objects": [
+      "salad_dressing_1"
+    ],
+    "final_width_m": 0.036557608620879825,
+    "target_position": [
+      -0.02807423213189831,
+      0.28667963538118685,
+      0.1332292832910761
+    ],
+    "rechecked_success": true
+  },
+  {
+    "task": 2,
+    "attempt": 1,
+    "success": true,
+    "target": "salad_dressing_1",
+    "target_finger_contact": true,
+    "contact_objects": [
+      "salad_dressing_1"
+    ],
+    "final_width_m": 0.036166199893376896,
+    "target_position": [
+      -0.014362325133050276,
+      0.27443190196529255,
+      0.1333196973904715
+    ],
+    "rechecked_success": true
+  },
+  {
+    "task": 2,
+    "attempt": 7,
+    "success": true,
+    "target": "salad_dressing_1",
+    "target_finger_contact": true,
+    "contact_objects": [
+      "salad_dressing_1"
+    ],
+    "final_width_m": 0.03711248081167509,
+    "target_position": [
+      -0.031664985499726885,
+      0.2839956372294382,
+      0.13217208812523412
+    ],
+    "rechecked_success": true
+  },
+  {
+    "task": 4,
+    "attempt": 0,
+    "success": true,
+    "target": "ketchup_1",
+    "target_finger_contact": true,
+    "contact_objects": [
+      "ketchup_1"
+    ],
+    "final_width_m": 0.03333309756022678,
+    "target_position": [
+      -0.013717241110687891,
+      0.2887117979891892,
+      0.12945230040073544
+    ],
+    "rechecked_success": true
+  },
+  {
+    "task": 4,
+    "attempt": 2,
+    "success": true,
+    "target": "ketchup_1",
+    "target_finger_contact": true,
+    "contact_objects": [
+      "ketchup_1"
+    ],
+    "final_width_m": 0.03367213362125153,
+    "target_position": [
+      -0.001000765364007669,
+      0.2982125144776113,
+      0.12829963002177544
+    ],
+    "rechecked_success": true
+  },
+  {
+    "task": 4,
+    "attempt": 3,
+    "success": true,
+    "target": "ketchup_1",
+    "target_finger_contact": true,
+    "contact_objects": [
+      "ketchup_1"
+    ],
+    "final_width_m": 0.033464219802500715,
+    "target_position": [
+      -0.020090600095392645,
+      0.2833999714730645,
+      0.13462070161842954
+    ],
+    "rechecked_success": true
+  },
+  {
+    "task": 4,
+    "attempt": 4,
+    "success": true,
+    "target": "ketchup_1",
+    "target_finger_contact": true,
+    "contact_objects": [
+      "ketchup_1"
+    ],
+    "final_width_m": 0.03343072224495064,
+    "target_position": [
+      -0.002994441671323767,
+      0.29274874331974204,
+      0.12702611605160669
+    ],
+    "rechecked_success": true
+  },
+  {
+    "task": 4,
+    "attempt": 8,
+    "success": true,
+    "target": "ketchup_1",
+    "target_finger_contact": true,
+    "contact_objects": [
+      "ketchup_1"
+    ],
+    "final_width_m": 0.031587894351642366,
+    "target_position": [
+      -0.03333698522924511,
+      0.2801216194882582,
+      0.13505535245483416
+    ],
+    "rechecked_success": true
+  },
+  {
+    "task": 9,
+    "attempt": 0,
+    "success": true,
+    "target": "orange_juice_1",
+    "target_finger_contact": false,
+    "rechecked_success": true
+  },
+  {
+    "task": 9,
+    "attempt": 2,
+    "success": true,
+    "target": "orange_juice_1",
+    "target_finger_contact": true,
+    "rechecked_success": true
+  },
+  {
+    "task": 9,
+    "attempt": 3,
+    "success": true,
+    "target": "orange_juice_1",
+    "target_finger_contact": true,
+    "rechecked_success": true
+  },
+  {
+    "task": 9,
+    "attempt": 4,
+    "success": true,
+    "target": "orange_juice_1",
+    "target_finger_contact": true,
+    "rechecked_success": true
+  },
+  {
+    "task": 9,
+    "attempt": 6,
+    "success": true,
+    "target": "orange_juice_1",
+    "target_finger_contact": true,
+    "rechecked_success": true
+  },
+  {
+    "task": 9,
+    "attempt": 7,
+    "success": true,
+    "target": "orange_juice_1",
+    "target_finger_contact": true,
+    "rechecked_success": true
+  },
+  {
+    "task": 9,
+    "attempt": 8,
+    "success": true,
+    "target": "orange_juice_1",
+    "target_finger_contact": true,
+    "rechecked_success": true
+  },
+  {
+    "task": 9,
+    "attempt": 9,
+    "success": true,
+    "target": "orange_juice_1",
+    "target_finger_contact": true,
+    "rechecked_success": true
+  }
+]

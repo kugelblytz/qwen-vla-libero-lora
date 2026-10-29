@@ -1,0 +1,55 @@
+{
+  "task": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate",
+  "initial_state_index": 0,
+  "seed": 0,
+  "render_backend": "osmesa",
+  "camera_configuration": {
+    "agentview_camera": "agentview",
+    "wrist_camera": "robot0_eye_in_hand",
+    "agentview_rotation_degrees": 180,
+    "agentview_flip": "none",
+    "wrist_rotation_degrees": 0,
+    "wrist_flip": "none"
+  },
+  "fixture_poses": {
+    "wooden_cabinet_1": [
+      0.03140393540835759,
+      -0.27122796973075364,
+      0.905,
+      0.2075372880368807,
+      0.0,
+      0.0,
+      0.9782271076157606
+    ],
+    "flat_stove_1": [
+      -0.4179591037850394,
+      -0.1458224648781033,
+      0.905,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "image_checks": {
+    "agentview": {
+      "shape": [
+        256,
+        256,
+        3
+      ],
+      "dtype": "uint8",
+      "pixel_std": 50.54619050286547
+    },
+    "wrist": {
+      "shape": [
+        256,
+        256,
+        3
+      ],
+      "dtype": "uint8",
+      "pixel_std": 64.31929443866389
+    }
+  },
+  "model_queried": false
+}

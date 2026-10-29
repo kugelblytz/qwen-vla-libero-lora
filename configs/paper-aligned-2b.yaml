@@ -1,0 +1,26 @@
+# Paper sections 5.1 and 7.1; unspecified values are repository choices below.
+model_name_or_path: Qwen/Qwen3.5-2B
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_rank: 64
+lora_target: all
+freeze_vision_tower: true
+freeze_multi_modal_projector: true
+num_train_epochs: 40.0
+learning_rate: 0.0001
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+image_max_pixels: 65536
+# Repository implementation choices, not explicitly reported by the paper:
+lora_alpha: 128
+lora_dropout: 0.05
+template: qwen3_5_nothink
+cutoff_len: 2048
+per_device_train_batch_size: 32
+gradient_accumulation_steps: 1
+disable_gradient_checkpointing: true
+flash_attn: fa2
+enable_liger_kernel: true
+# Deliberately incomplete: dataset/output must be selected for a new experiment.

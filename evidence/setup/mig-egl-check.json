@@ -1,0 +1,12 @@
+{
+  "status": "failed",
+  "gpu_rendering_verified": false,
+  "gpu_configuration": "GPU 0: NVIDIA H100 80GB HBM3 (UUID: GPU-5a6a4290-ccdf-eae4-9bec-40809e851043)\n  MIG 1g.20gb     Device  0: (UUID: MIG-300ce074-77fe-5be4-a0af-149120d1d20b)",
+  "backend": "egl",
+  "exit_code": 1,
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n  File \"/home/jovyan/rise-project/.milestone01/LIBERO/.venv/lib/python3.10/site-packages/mujoco/__init__.py\", line 62, in <module>\n    from mujoco.gl_context import *\n  File \"/home/jovyan/rise-project/.milestone01/LIBERO/.venv/lib/python3.10/site-packages/mujoco/gl_context.py\", line 41, in <module>\n    from mujoco.egl import GLContext as _GLContext\n  File \"/home/jovyan/rise-project/.milestone01/LIBERO/.venv/lib/python3.10/site-packages/mujoco/egl/__init__.py\", line 31, in <module>\n    from mujoco.egl import egl_ext as EGL\n  File \"/home/jovyan/rise-project/.milestone01/LIBERO/.venv/lib/python3.10/site-packages/mujoco/egl/egl_ext.py\", line 27, in <module>\n    from OpenGL import EGL\n  File \"/home/jovyan/rise-project/.milestone01/LIBERO/.venv/lib/python3.10/site-packages/OpenGL/EGL/__init__.py\", line 2, in <module>\n    from OpenGL.raw.EGL._types import *\n  File \"/home/jovyan/rise-project/.milestone01/LIBERO/.venv/lib/python3.10/site-packages/OpenGL/raw/EGL/_types.py\", line 87, in <module>\n    raw_eglQueryString = _p.PLATFORM.EGL.eglQueryString\nAttributeError: 'NoneType' object has no attribute 'eglQueryString'\n",
+  "interpretation": "EGL loader unavailable; failure occurs before NVIDIA device/context creation, so this probe does not directly test MIG graphics capability.",
+  "documentation": "https://docs.nvidia.com/datacenter/tesla/mig-user-guide/latest/deployment-considerations.html",
+  "evaluation_modified": false
+}

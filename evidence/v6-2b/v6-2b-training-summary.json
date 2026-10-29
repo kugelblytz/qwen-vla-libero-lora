@@ -1,0 +1,28 @@
+{
+ "run": "libero-object-1cm5deg-v6-state-h3-cp4-2b-20261016T121633",
+ "base_model": "Qwen3.5-2B",
+ "command": "v6-2b-training-command.txt",
+ "total_updates": 6928,
+ "validation": [
+  {
+   "update": 1732,
+   "eval_loss": 0.09221108257770538
+  },
+  {
+   "update": 3464,
+   "eval_loss": 0.08984703570604324
+  },
+  {
+   "update": 5196,
+   "eval_loss": 0.12496687471866608
+  }
+ ],
+ "elapsed_at_update_5196": "5:27:51",
+ "seconds_per_update": "about 3.4 (4B v6: about 4.2)",
+ "launches": [
+  "single launch 2026-10-16T12:16Z; no restart or error in the copied log"
+ ],
+ "log_coverage": "The local copy of the trainer log ends at update 6100, so the final (update 6928) validation loss and runtime are not recorded here. Adapter-6928 exists and was included in the changepoint sweep.",
+ "adapter_snapshots_every": 500,
+ "selected_adapter": "adapter-3500 (best held-out changepoint accuracy)"
+}

@@ -1,0 +1,11 @@
+{
+  "adapter": "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-v6-state-h3-cp4-2b-20261016T121633/training-output/adapter-3500",
+  "sha256": "812f971095fd75183514be5ab3a602eb6f26f5a888bf83e704abfc31d8f00489",
+  "step": 3500,
+  "run": "/home/jovyan/rise-project/.milestone01/libero-object-1cm5deg-v6-state-h3-cp4-2b-20261016T121633",
+  "attempts_per_task": 10,
+  "budget": "native",
+  "step_m": 0.01,
+  "rot_step_deg": 5.0,
+  "prompt_sha256": "e03e63252eec8d759fa3cba2bf8521158abcf9940d72be39859f3ccd1408a4a2"
+}

@@ -1,0 +1,40 @@
+{
+ "run": "libero-object-1cm5deg-v6-state-h3-cp4-20261014T233703",
+ "total_updates": 6928,
+ "validation": [
+  {
+   "update": 1732,
+   "eval_loss": 0.08565721660852432
+  },
+  {
+   "update": 3464,
+   "eval_loss": 0.08384038507938385
+  },
+  {
+   "update": 5196,
+   "eval_loss": 0.10168227553367615
+  },
+  {
+   "update": 6928,
+   "eval_loss": 0.13883447647094727
+  }
+ ],
+ "final": {
+  "epoch": 2.144919168591224,
+  "eval_loss": 0.13883447647094727,
+  "eval_runtime": 837.6498,
+  "eval_samples_per_second": 10.013,
+  "eval_steps_per_second": 10.013,
+  "total_flos": 2.6294420558679736e+18,
+  "train_loss": 0.0201040723490345,
+  "train_runtime": 29102.9444,
+  "train_samples_per_second": 7.618,
+  "train_steps_per_second": 0.238
+ },
+ "launches": [
+  "fresh start 2026-10-14T23:43Z after two GPU-busy failures",
+  "resume from checkpoint-3000 2026-10-15T07:57Z after a server stop at ~update 3160"
+ ],
+ "adapter_snapshots_every": 500,
+ "selected_adapter": "adapter-3500 (best held-out changepoint accuracy)"
+}

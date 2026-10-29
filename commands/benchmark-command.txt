@@ -1,0 +1,6 @@
+# Optional repeat of the configuration benchmark; does not launch production training.
+cd "$(git rev-parse --show-toplevel)"  # repository root
+bash scripts/pipeline.sh benchmark --run .workspace/libero-object-five-pass-config-check
+
+# Current/latest report:
+cat "$(cat .workspace/libero-object-benchmark.txt)/report.json"

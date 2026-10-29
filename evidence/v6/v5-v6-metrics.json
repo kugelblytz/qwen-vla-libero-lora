@@ -1,0 +1,220 @@
+{
+ "paired": {
+  "both": 18,
+  "only_v6": 45,
+  "only_v5": 1,
+  "neither": 36,
+  "mcnemar_p": 1.3358203432289883e-12
+ },
+ "eff_v5": {
+  "success_decisions": 128,
+  "success_control_steps": 1074,
+  "success_seconds": 62.56,
+  "failure_seconds": 239.21,
+  "total_hours": 6.03
+ },
+ "eff_v6": {
+  "success_decisions": 126,
+  "success_control_steps": 1003,
+  "success_seconds": 61.08,
+  "failure_seconds": 72.2,
+  "total_hours": 2.38
+ },
+ "mix_v5": {
+  "share": {
+   "turn": 0.3585,
+   "move": 0.6398,
+   "GRASP": 0.0016,
+   "RELEASE": 0.0001
+  },
+  "median_max_yaw": 5.43,
+  "yaw_over_90": 28,
+  "yaw_over_125": 28,
+  "all_yaw_cw": 24
+ },
+ "mix_v6": {
+  "share": {
+   "turn": 0.0301,
+   "move": 0.9602,
+   "GRASP": 0.006,
+   "RELEASE": 0.0036
+  },
+  "median_max_yaw": 5.08,
+  "yaw_over_90": 10,
+  "yaw_over_125": 7,
+  "all_yaw_cw": 0
+ },
+ "phase_v5": {
+  "grasped": 55,
+  "released": 3,
+  "regrasp_attempts": 1,
+  "median_first_grasp": 52,
+  "median_grasp_to_release": 120,
+  "successes_with_release": 1,
+  "successes_total": 19
+ },
+ "phase_v6": {
+  "grasped": 100,
+  "released": 60,
+  "regrasp_attempts": 0,
+  "median_first_grasp": 49.0,
+  "median_grasp_to_release": 85.5,
+  "successes_with_release": 36,
+  "successes_total": 63
+ },
+ "early_done": {
+  "count": 24,
+  "by_history": {
+   "released, then DONE": 24
+  },
+  "gripper_at_done": {
+   "open": 24
+  },
+  "median_decisions": 149.5,
+  "by_task": {
+   "alphabet soup and pla": 3,
+   "salad dressing and pl": 3,
+   "bbq sauce and place i": 1,
+   "butter and place it i": 8,
+   "milk and place it in ": 1,
+   "chocolate pudding and": 8
+  }
+ },
+ "motion_v5": {
+  "reversals_per_100": 0.0,
+  "stuck_move_share": 0.01,
+  "failures_reversals_per_100": 0.0,
+  "successes_reversals_per_100": 0.0
+ },
+ "motion_v6": {
+  "reversals_per_100": 0.0,
+  "stuck_move_share": 0.0,
+  "failures_reversals_per_100": 0.0,
+  "successes_reversals_per_100": 0.0
+ },
+ "v6_blocked_decisions": 245,
+ "tomato": [
+  {
+   "start": 0,
+   "first_grasp": 57,
+   "max_yaw": 149.9,
+   "stuck_share": 0.049,
+   "releases": 0
+  },
+  {
+   "start": 1,
+   "first_grasp": 70,
+   "max_yaw": 109.9,
+   "stuck_share": 0.043,
+   "releases": 0
+  },
+  {
+   "start": 2,
+   "first_grasp": 64,
+   "max_yaw": 135.0,
+   "stuck_share": 0.181,
+   "releases": 0
+  },
+  {
+   "start": 3,
+   "first_grasp": 47,
+   "max_yaw": 140.0,
+   "stuck_share": 0.051,
+   "releases": 0
+  },
+  {
+   "start": 4,
+   "first_grasp": 69,
+   "max_yaw": 120.0,
+   "stuck_share": 0.196,
+   "releases": 0
+  },
+  {
+   "start": 5,
+   "first_grasp": 57,
+   "max_yaw": 149.8,
+   "stuck_share": 0.125,
+   "releases": 0
+  },
+  {
+   "start": 6,
+   "first_grasp": 61,
+   "max_yaw": 140.0,
+   "stuck_share": 0.095,
+   "releases": 0
+  },
+  {
+   "start": 7,
+   "first_grasp": 62,
+   "max_yaw": 124.9,
+   "stuck_share": 0.212,
+   "releases": 0
+  },
+  {
+   "start": 8,
+   "first_grasp": 49,
+   "max_yaw": 162.1,
+   "stuck_share": 0.076,
+   "releases": 0
+  },
+  {
+   "start": 9,
+   "first_grasp": 62,
+   "max_yaw": 135.0,
+   "stuck_share": 0.138,
+   "releases": 0
+  }
+ ],
+ "per_task": {
+  "0": {
+   "task": "alphabet soup and pla",
+   "v5_success": 3,
+   "v6_success": 7
+  },
+  "1": {
+   "task": "cream cheese and plac",
+   "v5_success": 0,
+   "v6_success": 10
+  },
+  "2": {
+   "task": "salad dressing and pl",
+   "v5_success": 3,
+   "v6_success": 6
+  },
+  "3": {
+   "task": "bbq sauce and place i",
+   "v5_success": 0,
+   "v6_success": 9
+  },
+  "4": {
+   "task": "ketchup and place it ",
+   "v5_success": 5,
+   "v6_success": 10
+  },
+  "5": {
+   "task": "tomato sauce and plac",
+   "v5_success": 0,
+   "v6_success": 0
+  },
+  "6": {
+   "task": "butter and place it i",
+   "v5_success": 0,
+   "v6_success": 2
+  },
+  "7": {
+   "task": "milk and place it in ",
+   "v5_success": 0,
+   "v6_success": 7
+  },
+  "8": {
+   "task": "chocolate pudding and",
+   "v5_success": 0,
+   "v6_success": 2
+  },
+  "9": {
+   "task": "orange juice and plac",
+   "v5_success": 8,
+   "v6_success": 10
+  }
+ }
+}

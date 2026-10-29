@@ -1,0 +1,99 @@
+{
+  "status": "passed",
+  "model": "qwen3_5_4b_showharness_ft",
+  "served_models": {
+    "object": "list",
+    "data": [
+      {
+        "id": "Qwen/Qwen3.5-4B",
+        "object": "model",
+        "created": 1791272006,
+        "owned_by": "vllm",
+        "root": "/home/jovyan/rise-project/.milestone01/models-4b/base",
+        "parent": null,
+        "max_model_len": 8192,
+        "permission": [
+          {
+            "id": "modelperm-a4ea9fa12f267290",
+            "object": "model_permission",
+            "created": 1791272006,
+            "allow_create_engine": false,
+            "allow_sampling": true,
+            "allow_logprobs": true,
+            "allow_search_indices": false,
+            "allow_view": true,
+            "allow_fine_tuning": false,
+            "organization": "*",
+            "group": null,
+            "is_blocking": false
+          }
+        ]
+      },
+      {
+        "id": "qwen3_5_4b_showharness_ft",
+        "object": "model",
+        "created": 1791272006,
+        "owned_by": "vllm",
+        "root": "/home/jovyan/rise-project/.milestone01/models-4b/adapter/qwen3_5_4b",
+        "parent": "Qwen/Qwen3.5-4B",
+        "max_model_len": null,
+        "permission": [
+          {
+            "id": "modelperm-b1d9699d5ebf27b5",
+            "object": "model_permission",
+            "created": 1791272006,
+            "allow_create_engine": false,
+            "allow_sampling": true,
+            "allow_logprobs": true,
+            "allow_search_indices": false,
+            "allow_view": true,
+            "allow_fine_tuning": false,
+            "organization": "*",
+            "group": null,
+            "is_blocking": false
+          }
+        ]
+      }
+    ]
+  },
+  "response": {
+    "id": "chatcmpl-983e21bf2f81f8c0",
+    "object": "chat.completion",
+    "created": 1791272006,
+    "model": "qwen3_5_4b_showharness_ft",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "MV_LEFT",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.24.0-f4159db1",
+    "usage": {
+      "prompt_tokens": 347,
+      "total_tokens": 350,
+      "completion_tokens": 3,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null
+  },
+  "latency_s": 2.1688784859143198,
+  "rollouts_run": 0,
+  "input": "Saved smoke-01/request-0000.json; only model changed"
+}

@@ -1,0 +1,79 @@
+# v6 state-line / changepoint variant. Background: state-and-changepoints.md.
+# Run each block separately from the project root.
+#
+# Same as the v5 run (training-launches/20261010T230103-238246.json), except where noted:
+#   train-fast (optimized kernels), 1732 updates per nominal pass, microbatch 32 x accumulation 1,
+#   2 loader workers, OMP 4, LoRA r64/alpha 128/dropout 0.05, lr 1e-4 cosine, warmup 0.1,
+#   seed 42, equal task mixing, streaming buffer 4096, cutoff 2048, same episodes/validation split.
+# Intended differences (the experiment): prompt state line, history 3 instead of 5,
+#   changepoint training rows x4.
+# Budget differences (requested): --passes 4 = 6928 updates (v5: 2 passes = 3464).
+#   The cosine schedule spans 6928 updates, so v6 at ~3464 updates is NOT a v5-equivalent
+#   checkpoint (learning rate not yet annealed). Compare v6 final vs v5 final, and report
+#   the different budget.
+# Validation loss (full validation split, ~15 min each): every pass = 1732, 3464, 5196, 6928, as in v5.
+#   Same validation episodes as v5, but v6 prompts differ (state line, history 3), so the
+#   value at 3464 is only roughly comparable to v5's final 0.0563. Checkpoints are chosen by
+#   check_changepoints and rollouts, not by this loss.
+# Checkpointing: full checkpoint every 250 updates (v5: 500), newest 3 kept (~1.6 GB each);
+#   adapter-only snapshots every 500 updates and at 6928 (training-output/adapter-N, ~0.5 GB
+#   each, never rotated). At most ~25 min of training is lost per crash (~6 s/update).
+cd "$(git rev-parse --show-toplevel)"  # repository root
+S=scripts
+SOURCE=.workspace/libero-object-1cm5deg-20261009T203209-239977
+V5_CKPT=$SOURCE/training-output/checkpoint-3464
+TRAIN_ARGS="--passes 4 --microbatch 32 --save-steps 250 --keep-checkpoints 3 --snapshot-every 500 --eval-every-passes 1"
+
+# 1. Export the variant (minutes, CPU). Does not touch the v5 run or its dataset pointer.
+bash $S/pipeline.sh export-variant --source $SOURCE
+ls -d .workspace/libero-object-1cm5deg-v6-state-h3-cp4-* | tail -1 > .workspace/libero-object-v6-dataset.txt
+VARIANT="$(cat .workspace/libero-object-v6-dataset.txt)"
+
+# 2. Check: must print "Total updates: 6928" and pass the official parser.
+#    ALWAYS pass --run "$VARIANT"; without it train-fast trains the v5 dataset again.
+bash $S/pipeline.sh train-fast --run "$VARIANT" $TRAIN_ARGS --dry-run
+
+# 3. Baseline changepoint check on the v5 checkpoint BEFORE training (GPU is free; ~minutes).
+#    Terminal A:
+QWEN_PROFILE=4b-libero-v5 LIBERO_ADAPTER=$V5_CKPT bash scripts/sim/serve_qwen.sh
+#    Terminal B:
+bash $S/pipeline.sh check-changepoints --run $SOURCE --adapter $V5_CKPT --out .workspace/changepoints-v5-3464
+#    Stop the server (Ctrl-C in terminal A) before training.
+
+# 4. Train (~12 h of updates plus restarts) under the crash supervisor. It relaunches with
+#    --resume latest (newest COMPLETE checkpoint; adapter, optimizer, scheduler and RNG restored)
+#    until 6928 updates are reached. Log is appended across launches.
+nohup bash $S/pipeline.sh train-resilient --run "$VARIANT" $TRAIN_ARGS >> .workspace/libero-object-v6-training.log 2>&1 < /dev/null &
+echo $! > .workspace/libero-object-v6-training.pid
+tail -f .workspace/libero-object-v6-training.log
+
+#    After a server/pod restart (the supervisor dies with it): re-run the SAME block 4 command,
+#    unchanged. Keep $TRAIN_ARGS identical or the schedule changes. Check progress with:
+ls -d "$VARIANT"/training-output/checkpoint-* "$VARIANT"/training-output/adapter-*
+grep -E "launch|exited|complete|Skipping|Snapshot" .workspace/libero-object-v6-training.log | tail
+
+# 5. Same changepoint check on the final v6 adapter (serve it as in step 3).
+V6_CKPT="$VARIANT/training-output/adapter-6928"
+QWEN_PROFILE=4b-libero-v5 LIBERO_ADAPTER=$V6_CKPT bash scripts/sim/serve_qwen.sh
+bash $S/pipeline.sh check-changepoints --run "$VARIANT" --adapter $V6_CKPT --out .workspace/changepoints-v6-6928
+#    Optional: the same check on adapter-3500 shows the effect of the extra training.
+#    Stop the server; the evaluator starts its own.
+
+# 6. Frozen-protocol evaluation, run exactly like the v5 one (10 attempts/task, native budget).
+nohup bash $S/pipeline.sh evaluate --run "$VARIANT" --adapter $V6_CKPT --attempts 10 --budget native > .workspace/libero-object-v6-eval.log 2>&1 < /dev/null &
+tail -f .workspace/libero-object-v6-eval.log
+#    If it is interrupted: add --resume-evaluation "<the eval-native-... directory>" to the same
+#    command. Completed attempts are kept. If an attempt was cut off mid-way, the resume stops with
+#    "Incomplete episode": move that task-XX-attempt-YYY folder aside (keep it), then resume again.
+
+# 7. Compare against the v5 evaluation (per task: success, all-yaw loops, GRASP, RELEASE, step limit).
+V6_EVAL="$(ls -d "$VARIANT"/eval-native-2* | tail -1)"
+.workspace/qwen-venv/bin/python $S/compare_evaluations.py \
+  --baseline $SOURCE/eval-native-20261011T112205 --candidate "$V6_EVAL" \
+  --baseline-changepoints .workspace/changepoints-v5-3464 --candidate-changepoints .workspace/changepoints-v6-6928 \
+  --out .workspace/compare-v5-3464-v6-6928.json
+
+# 8. Optional diagnostic, reported separately (turn-guard.md): the turn guard on BOTH checkpoints,
+#    to separate the guard's effect from the training change.
+bash $S/pipeline.sh evaluate --run $SOURCE --adapter $V5_CKPT --attempts 10 --budget native --turn-guard-deg 90
+bash $S/pipeline.sh evaluate --run "$VARIANT" --adapter $V6_CKPT --attempts 10 --budget native --turn-guard-deg 90

@@ -1,0 +1,37 @@
+{
+  "scope": "First seven LIBERO-Object task-0 attempts; preliminary, not final suite results",
+  "attempts": 7,
+  "successes": 2,
+  "failures": [
+    {
+      "initial_state": 0,
+      "grasp_commands": 1,
+      "release_commands": 0,
+      "reason": "max_tokens"
+    },
+    {
+      "initial_state": 1,
+      "grasp_commands": 1,
+      "release_commands": 0,
+      "reason": "max_tokens"
+    },
+    {
+      "initial_state": 2,
+      "grasp_commands": 1,
+      "release_commands": 0,
+      "reason": "max_tokens"
+    },
+    {
+      "initial_state": 3,
+      "grasp_commands": 1,
+      "release_commands": 0,
+      "reason": "max_tokens"
+    },
+    {
+      "initial_state": 5,
+      "grasp_commands": 0,
+      "release_commands": 0,
+      "reason": "max_tokens"
+    }
+  ]
+}

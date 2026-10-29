@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "dtype": "torch.float32",
+      "output_relative_l2": 5.392102409018662e-08,
+      "gradient_relative_l2": [
+        8.755218061651249e-08,
+        5.3086569806737316e-08,
+        7.646788446891151e-08
+      ]
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "output_relative_l2": 0.0028829409275203943,
+      "gradient_relative_l2": [
+        0.004127431660890579,
+        0.001551422174088657,
+        0.0009033398819155991
+      ]
+    }
+  ]
+}

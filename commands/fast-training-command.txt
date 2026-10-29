@@ -1,0 +1,20 @@
+# Initial two-pass option, approximately 5-7 hours of compute after full preparation.
+# Uses all successful converted demonstrations. No frame thinning or action chunks.
+cd "$(git rev-parse --show-toplevel)"  # repository root
+mkdir -p .workspace
+
+# Run full preparation first using command.txt if it is not already complete.
+# Fast kernel environment is installed and tested on this machine.
+# To recreate it: pipeline.sh setup-fast --causal (see efficient-training.md).
+bash scripts/pipeline.sh train-fast --passes 2 --microbatch 32 --dry-run
+
+nohup bash scripts/pipeline.sh train-fast --passes 2 --microbatch 32 > .workspace/libero-object-fast-training.log 2>&1 < /dev/null &
+echo $! > .workspace/libero-object-training.pid
+tail -f .workspace/libero-object-fast-training.log
+
+# In another terminal, inspect timings from the actual run:
+bash scripts/pipeline.sh status
+
+# Checkpoints are saved every 500 updates; validation runs every nominal pass. Evaluate before extending.
+# Use --microbatch 16 for more memory headroom; effective batch remains 32.
+# To train five passes immediately, change --passes 2 to --passes 5 in both commands.

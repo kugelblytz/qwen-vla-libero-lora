@@ -1,0 +1,38 @@
+# v6 technique on Qwen3.5-2B, the Show-Harness default backbone. Run each block from the project root.
+#
+# Show-Harness 2B recipe (paper 5.1/7.1 + repository; experiments/libero-4b-v5/paper-settings.json):
+#   Qwen3.5-2B, LoRA rank 64 on all language-model linear layers, alpha 128, dropout 0.05,
+#   frozen vision tower and projector, BF16, lr 1e-4 cosine, warmup 0.1, effective batch 32,
+#   two 256x256 views (image_max_pixels 65536), cutoff 2048, qwen3_5_nothink template.
+#   All kept here, unchanged.
+# Our technique (identical to the 4B v6 run): measured robot-state line, 3-move history,
+#   action-change training rows x4, same 389/44 episode split and 55,411 training examples.
+# Deviations from Show-Harness, stated:
+#   - Training length: 6928 updates (4 nominal passes), identical to the 4B v6 run so the two
+#     model sizes compare directly. Show-Harness's sim adapter used 30 epochs of its own data
+#     (~12,900 updates); 30 epochs of ours would be ~52,000 updates and overfit (see results-v6.md).
+#   - Gradient checkpointing ON (Show-Harness: off). 2B at physical batch 32 without it does not
+#     fit this 20 GB GPU slice (paper-memory.md); checkpointing changes speed, not the result.
+#   - Attention: PyTorch SDPA (Show-Harness: FlashAttention-2, not installed here).
+#   - Data and prompt: our converted LIBERO-Object demonstrations and v6 prompt, not the paper's corpus.
+# Checkpointing, crash recovery and validation exactly as the 4B v6 run.
+cd "$(git rev-parse --show-toplevel)"  # repository root
+S=scripts
+SOURCE=.workspace/libero-object-1cm5deg-20261009T203209-239977
+TRAIN_ARGS="--passes 4 --microbatch 32 --save-steps 250 --keep-checkpoints 3 --snapshot-every 500 --eval-every-passes 1"
+
+# 1. Export the 2B variant (same data as 4B v6; only base model, serve profile and adapter name differ).
+bash $S/pipeline.sh export-variant --source $SOURCE --base-model 2b
+ls -d .workspace/libero-object-1cm5deg-v6-state-h3-cp4-2b-* | tail -1 > .workspace/libero-object-v6-2b-dataset.txt
+V2B="$(cat .workspace/libero-object-v6-2b-dataset.txt)"
+
+# 2. Check: must print "Total updates: 6928" and pass the official parser.
+bash $S/pipeline.sh train-fast --run "$V2B" $TRAIN_ARGS --resume latest --dry-run
+
+# 3. Train under the crash supervisor (re-run this same command after a server restart).
+nohup bash $S/pipeline.sh train-resilient --run "$V2B" $TRAIN_ARGS >> .workspace/libero-object-v6-2b-training.log 2>&1 < /dev/null &
+echo $! > .workspace/libero-object-v6-2b-training.pid
+
+# 4. Afterwards: changepoint sweep over the 2B snapshots (edit JOBS in changepoint_sweep.sh to the
+#    2B run's adapters; the serve profile is read from the run's manifest), then the frozen
+#    100-attempt evaluation of the best snapshot, and compare_evaluations.py against 4B v6 adapter-3500.

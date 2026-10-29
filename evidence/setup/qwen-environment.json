@@ -1,0 +1,31 @@
+{
+  "python": "3.11.17",
+  "platform": "Linux-5.15.0-1085-nvidia-x86_64-with-glibc2.35",
+  "packages": {
+    "vllm": "0.24.0+cu129",
+    "torch": "2.11.0+cu129",
+    "transformers": "5.12.1",
+    "huggingface-hub": "1.17.0"
+  },
+  "cuda_runtime": "12.9",
+  "cuda_available": true,
+  "driver": "535.247.01",
+  "devices": [
+    {
+      "index": 0,
+      "name": "NVIDIA H100 80GB HBM3 MIG 2g.20gb",
+      "compute_capability": [
+        9,
+        0
+      ],
+      "total_memory_bytes": 21072183296
+    }
+  ],
+  "model_loaded": false,
+  "checks": [
+    "CUDA allocation, kernel execution and bf16 GEMM",
+    "vLLM native RMSNorm CUDA kernel",
+    "Qwen3.5 architecture import"
+  ],
+  "status": "passed"
+}

@@ -1,0 +1,68 @@
+{
+  "task": "pick_up_the_cream_cheese_and_place_it_in_the_basket",
+  "prompt_version": "v5",
+  "successes": 0,
+  "attempts": 10,
+  "rollouts": [
+    {
+      "attempt": "attempt-000",
+      "success": false,
+      "reason": "max_tokens",
+      "actions": 200
+    },
+    {
+      "attempt": "attempt-001",
+      "success": false,
+      "reason": "max_tokens",
+      "actions": 200
+    },
+    {
+      "attempt": "attempt-002",
+      "success": false,
+      "reason": "max_tokens",
+      "actions": 200
+    },
+    {
+      "attempt": "attempt-003",
+      "success": false,
+      "reason": "max_tokens",
+      "actions": 200
+    },
+    {
+      "attempt": "attempt-004",
+      "success": false,
+      "reason": "max_tokens",
+      "actions": 200
+    },
+    {
+      "attempt": "attempt-005",
+      "success": false,
+      "reason": "max_tokens",
+      "actions": 200
+    },
+    {
+      "attempt": "attempt-006",
+      "success": false,
+      "reason": "max_tokens",
+      "actions": 200
+    },
+    {
+      "attempt": "attempt-007",
+      "success": false,
+      "reason": "max_tokens",
+      "actions": 200
+    },
+    {
+      "attempt": "attempt-008",
+      "success": false,
+      "reason": "max_tokens",
+      "actions": 200
+    },
+    {
+      "attempt": "attempt-009",
+      "success": false,
+      "reason": "max_tokens",
+      "actions": 200
+    }
+  ]
+}
