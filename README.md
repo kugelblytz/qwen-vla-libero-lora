@@ -38,6 +38,18 @@ xychart-beta
 ¹ Different protocol (released prompt v3, 2 cm actions, 200-action limit). It shows that the released
 adapter does not transfer to LIBERO, not a like-for-like baseline.
 
+### Trained adapters
+
+The evaluated adapters are on Hugging Face. Each one's SHA-256 matches the hash recorded in its frozen evaluation.
+
+| Adapter | Base | Success | Hugging Face |
+|---|---|---:|---|
+| v6, adapter-3500 | Qwen3.5-4B | 63/100 | [kugelblytz/qwen3.5-4b-libero-object-v6-lora](https://huggingface.co/kugelblytz/qwen3.5-4b-libero-object-v6-lora) |
+| v6, adapter-3500 | Qwen3.5-2B | 61/100 | [kugelblytz/qwen3.5-2b-libero-object-v6-lora](https://huggingface.co/kugelblytz/qwen3.5-2b-libero-object-v6-lora) |
+| v5, checkpoint-3464 | Qwen3.5-4B | 19/100 | [kugelblytz/qwen3.5-4b-libero-object-v5-lora](https://huggingface.co/kugelblytz/qwen3.5-4b-libero-object-v5-lora) |
+
+Each repository contains the adapter, the frozen prompt, the training config, the dataset manifest and checksums.
+
 ### What moved the number from 19 to 63
 
 1. **Diagnose the failures.** In v5, 45 of 81 failures never issued `GRASP`, and 24 attempts repeated
