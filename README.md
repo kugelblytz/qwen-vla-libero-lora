@@ -148,3 +148,7 @@ live under `.workspace/` in the repository root, which can be a symlink.
 - [LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO): tasks, assets and initial states.
 - [OpenVLA](https://openvla.github.io/): LIBERO-Object fine-tuning protocol used as the comparison reference.
 - Full source list: [docs/references.md](docs/references.md).
+
+## License
+
+[Apache-2.0](LICENSE), matching Show-Harness and LLaMA-Factory, which this pipeline builds on.
